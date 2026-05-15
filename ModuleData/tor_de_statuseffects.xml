@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StatusEffects>
+    <!-- Melee Attack +25% (using Attack Speed) -->
+    <StatusEffectTemplate 
+        id="de_murderous_prowess_melee" 
+        particle_id="breath_of_darkness"
+        particle_intensity="Low"
+        type="AttackSpeedManipulation" 
+        base_effect_value="0.25" />
+
+    <!-- Charge Bonus +25% (using Movement Manipulation) -->
+    <StatusEffectTemplate 
+        id="de_murderous_prowess_charge" 
+        type="MovementManipulation" 
+        base_effect_value="0.25" />
+
+    <!-- Armour-Piercing Missile Damage +20% -->
+    <StatusEffectTemplate 
+        id="de_murderous_prowess_ap_missile" 
+        type="DamageAmplification" 
+        damage_type="Physical" 
+        applies_for_attack_type="Ranged"
+        base_effect_value="0.20" />
+
+    <!-- Soulblight Debuffs -->
+    <StatusEffectTemplate 
+        id="de_soulblight_ats_debuff" 
+        type="AttackSpeedManipulation" 
+        base_effect_value="-0.20" />
+
+    <StatusEffectTemplate 
+        id="de_soulblight_dmg_debuff" 
+        type="DamageAmplification" 
+        damage_type="All"
+        base_effect_value="-0.20" />
+
+    <StatusEffectTemplate 
+        id="de_soulblight_res_debuff" 
+        type="Resistance" 
+        damage_type="Physical"
+        base_effect_value="-0.30" />
+
+    <!-- Doomfire Poison Debuffs -->
+    <StatusEffectTemplate 
+        id="de_doomfire_poison_mov_debuff" 
+        type="MovementManipulation" 
+        base_effect_value="-0.25" />
+
+    <StatusEffectTemplate 
+        id="de_doomfire_poison_dmg_debuff" 
+        type="DamageAmplification" 
+        damage_type="Physical" 
+        base_effect_value="-0.15" />
+
+    <!-- Generic Poison Effects (Shared by Doomfire and Witch Elves) -->
+    <StatusEffectTemplate 
+        id="de_poison_speed_debuff" 
+        type="MovementManipulation" 
+        base_effect_value="-0.15" />
+
+    <StatusEffectTemplate 
+        id="de_poison_damage_debuff" 
+        type="DamageAmplification" 
+        damage_type="All"
+        base_effect_value="-0.15" />
+
+    <StatusEffectTemplate 
+        id="de_poison_dot" 
+        type="DamageOverTime" 
+        damage_type="Physical"
+        base_effect_value="1.0" />
+
+    <!-- Witchbrew Frenzy Effects -->
+    <StatusEffectTemplate id="de_witchbrew_frenzy" type="AttackSpeedManipulation" base_effect_value="0.40" />
+    <StatusEffectTemplate id="de_witchbrew_movement" type="MovementManipulation" base_effect_value="0.15" />
+
+    <!-- Witch Elf Poison (Madness of Khaine) -->
+    <!-- "Enrage" effect: increased attack speed but reduced resistance -->
+    <StatusEffectTemplate id="de_madness_of_khaine_ats" type="AttackSpeedManipulation" base_effect_value="0.20" />
+    <StatusEffectTemplate id="de_madness_of_khaine_res" type="Resistance" damage_type="All" base_effect_value="-0.20" />
+
+    <!-- Kindleflame Weakness -->
+    <StatusEffectTemplate 
+        id="de_kindleflame_weakness" 
+        particle_id="psys_burning" 
+        particle_intensity="Low"
+        base_effect_value="-0.2" 
+        type="Resistance" 
+        damage_type="Fire"
+        applies_for_attack_type="All" />
+</StatusEffects>

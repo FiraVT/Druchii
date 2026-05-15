@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemTraits>
+  <ItemTrait ItemTraitStringId="de_repeater_crossbow_trait"
+             ItemTraitName="Repeater Crossbow"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Ranged</ValidItemType>
+    <ItemTraitDescription>Fires two bolts at once.</ItemTraitDescription>
+    <StatsTuple StatType="ScatterShot" Value="2" />
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="de_repeater_crossbow_ap_trait"
+             ItemTraitName="Armor Piercing Bolts"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Ranged</ValidItemType>
+    <ItemTraitDescription>Bolts designed to punch through heavy armor.</ItemTraitDescription>
+    <StatsTuple StatType="ArmorPenetration" Value="20" />
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="de_repeater_crossbow_shield_trait"
+             ItemTraitName="Shield Breaker Bolts"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Ranged</ValidItemType>
+    <ItemTraitDescription>Bolts designed to splinter shields.</ItemTraitDescription>
+    <StatsTuple StatType="ShieldDamage" Value="100" />
+  </ItemTrait>
+
+  <ItemTrait ItemTraitStringId="de_doomfire_magical"
+             ItemTraitName="Cursed Magical Attacks"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Weapon</ValidItemType>
+    <ItemTraitDescription>This weapon deals significant magical damage.</ItemTraitDescription>
+    <AdditionalDamageTuple DamageType="Magical" Percent="0.40" />
+    <WeaponParticlePreset ParticlePrefab="magic_trait" IsUniqueSingleCopy="false" />
+  </ItemTrait>
+
+  <ItemTrait ItemTraitStringId="de_doomfire_poison"
+             ItemTraitName="Hollow-Eyed Poison"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Weapon</ValidItemType>
+    <ItemTraitDescription>Strikes apply a debilitating poison that slows and weakens enemies.</ItemTraitDescription>
+    <OnWeaponHitScript WeaponScriptName="TOR_Core.Items.WeaponHitScripts.WeaponTriggerEffectScript">
+      <WeaponScriptArguments>
+        <WeaponScriptArgument>de_doomfire_poison_trigger</WeaponScriptArgument>
+      </WeaponScriptArguments>
+    </OnWeaponHitScript>
+  </ItemTrait>
+
+  <ItemTrait ItemTraitStringId="de_witch_poison"
+             ItemTraitName="Madness of Khaine Poison"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Weapon</ValidItemType>
+    <ItemTraitDescription>Strikes apply the Madness of Khaine, a deadly venom that slows and enrages.</ItemTraitDescription>
+    <OnWeaponHitScript WeaponScriptName="TOR_Core.Items.WeaponHitScripts.WeaponTriggerEffectScript">
+      <WeaponScriptArguments>
+        <WeaponScriptArgument>de_witch_poison_trigger</WeaponScriptArgument>
+      </WeaponScriptArguments>
+    </OnWeaponHitScript>
+  </ItemTrait>
+
+  <ItemTrait ItemTraitStringId="de_cleave_trait"
+             ItemTraitName="Cleave"
+             IsCraftable="false"
+             IconName="traits_magic_icon">
+    <ValidItemType>Weapon</ValidItemType>
+    <ItemTraitDescription>Weapon swings through multiple enemies.</ItemTraitDescription>
+    <StatsTuple StatType="Cleave" Value="1" />
+  </ItemTrait>
+</ItemTraits>

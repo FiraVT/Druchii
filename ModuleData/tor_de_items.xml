@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="tor_de_repeater_crossbow_mounted"
+        name="{=str_tor_de_repeater_crossbow_mounted}Druchii Repeater Crossbow"
+        body_name="bo_composite_crossbows"
+        mesh="crossbow_b"
+        culture="Culture.druchii"
+        weight="1.5"
+        difficulty="0"
+        is_merchandise="true"
+        value="1200"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+    <ItemComponent>
+      <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+              missile_speed="110"
+              accuracy="98"
+              thrust_damage="105"
+              thrust_speed="90"
+              speed_rating="90"
+              weapon_length="60"
+              ammo_limit="10"
+              missile_count="1"
+              cant_reload_on_horseback="false"
+              thrust_damage_type="Pierce"
+              item_usage="crossbow_light"
+              reload_phase_count="1"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4"
+              modifier_group="crossbow">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     AutoReload="true"
+                     CanBeUsedWhileCrouched="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <!-- Witch Elf Items -->
+
+  <Item id="tor_de_witch_elf_body"
+        name="{=str_tor_de_witch_elf_body}Witch Elf Raiment"
+        mesh="wh_de_body_armor_witch_elf_a"
+        culture="Culture.druchii"
+        weight="1.0"
+        difficulty="0"
+        is_merchandise="true"
+        value="800"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="20"
+             leg_armor="8"
+             arm_armor="8"
+             absorbs_body_armor="0"
+             absorbs_leg_armor="0"
+             absorbs_arm_armor="0"
+             modifier_group="cloth"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="tor_de_witch_elf_head"
+        name="{=str_tor_de_witch_elf_head}Witch Elf Circlet"
+        mesh="none"
+        culture="Culture.druchii"
+        weight="0.2"
+        difficulty="0"
+        is_merchandise="true"
+        value="300"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             absorbs_head_armor="0"
+             modifier_group="cloth"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="tor_de_bolts_large"
+        name="{=str_tor_de_bolts_large}Large Quiver of Bolts"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_bolt_bl_b_quiver"
+        mesh="bolt_bl_b"
+        holster_mesh="bolt_bl_b_quiver"
+        flying_mesh="bolt_bl_flying"
+        holster_mesh_with_weapon="bolt_bl_b_quiver"
+        culture="Culture.druchii"
+        weight="0.1"
+        appearance="1"
+        is_merchandise="true"
+        value="150"
+        Type="Bolts"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="36"
+              thrust_speed="0"
+              thrust_damage="4"
+              thrust_damage_type="Pierce"
+              speed_rating="0"
+              missile_speed="10"
+              weapon_length="47"
+              physics_material="missile"
+              center_of_mass="0,0,-0.1"
+              modifier_group="bolt">
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <!-- Druchii Shield (used by infantry and cavalry) -->
+  <Item id="tor_de_weapon_shield_001"
+        name="{=str_tor_de_weapon_shield_001}Druchii Heater Shield"
+        mesh="de_shield_001e"
+        culture="Culture.druchii"
+        weight="2.2"
+        is_merchandise="true"
+        value="850"
+        Type="Shield"
+        appearance="2">
+    <ItemComponent>
+      <Weapon weapon_class="SmallShield"
+              body_name="bo_heater_shield_b"
+              hit_points="500"
+              speed_rating="78"
+              missile_speed="0"
+              weapon_length="55"
+              physics_material="wood_weapon"
+              thrust_speed="0"
+              item_usage="shield_heater_b"
+              modifier_group="shield" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <!-- Druchii Infantry Core Equipment (Infantry 001 Set) -->
+  <Item id="tor_de_head_helmet_infantry_001"
+        name="{=str_tor_de_head_helmet_infantry_001}Druchii Infantry Helmet"
+        mesh="de_infantry_helmet_001q"
+        culture="Culture.druchii"
+        weight="1.2"
+        appearance="4"
+        Type="HeadArmor"
+        is_merchandise="true"
+        value="1200">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="20" hair_cover_type="all" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_body_armor_infantry_001"
+        name="{=str_tor_de_body_armor_infantry_001}Druchii Infantry Plate"
+        mesh="de_infantry_001_torso"
+        culture="Culture.druchii"
+        weight="7.2"
+        appearance="3"
+        Type="BodyArmor"
+        is_merchandise="true"
+        value="4500">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="18" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_body_armor_infantry_light"
+        name="{=str_tor_de_body_armor_infantry_light}Druchii Light Infantry Armor"
+        mesh="de_infantry_armor_cloth_001"
+        culture="Culture.druchii"
+        weight="4.5"
+        appearance="3"
+        Type="BodyArmor"
+        is_merchandise="true"
+        value="2200">
+    <ItemComponent>
+      <Armor body_armor="24" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_shoulder_pauldrons_infantry_001"
+        name="{=str_tor_de_shoulder_pauldrons_infantry_001}Druchii Infantry Pauldrons"
+        mesh="de_infantry_001_shoulders"
+        culture="Culture.druchii"
+        weight="2.5"
+        appearance="2"
+        Type="Cape"
+        is_merchandise="true"
+        value="1800">
+    <ItemComponent>
+      <Armor body_armor="22" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_arm_bracers_infantry_001"
+        name="{=str_tor_de_arm_bracers_infantry_001}Druchii Infantry Bracers"
+        mesh="vambrace_a"
+        culture="Culture.druchii"
+        weight="1.0"
+        appearance="4"
+        Type="HandArmor"
+        is_merchandise="true"
+        value="800">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <!-- Sorceress Equipment Set -->
+  <Item id="tor_de_head_sorceress_001"
+        name="{=str_tor_de_head_sorceress_001}Druchii Sorceress Circlet"
+        mesh="none"
+        culture="Culture.druchii"
+        weight="0.2"
+        appearance="4"
+        Type="HeadArmor"
+        is_merchandise="false"
+        value="500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="12" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_body_sorceress_001"
+        name="{=str_tor_de_body_sorceress_001}Druchii Sorceress Raiment"
+        mesh="wh_de_body_armor_sorcerer_a"
+        culture="Culture.druchii"
+        weight="2.0"
+        appearance="3"
+        Type="BodyArmor"
+        is_merchandise="false"
+        value="3500">
+    <ItemComponent>
+      <Armor body_armor="25" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_shoulder_sorceress_001"
+        name="{=str_tor_de_shoulder_sorceress_001}Druchii Sorceress Mantle"
+        mesh="none"
+        culture="Culture.druchii"
+        weight="1.0"
+        appearance="2"
+        Type="Cape"
+        is_merchandise="false"
+        value="600">
+    <ItemComponent>
+      <Armor body_armor="5" arm_armor="5" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_arm_sorceress_001"
+        name="{=str_tor_de_arm_sorceress_001}Druchii Sorceress Bracers"
+        mesh="none"
+        culture="Culture.druchii"
+        weight="0.5"
+        appearance="4"
+        Type="HandArmor"
+        is_merchandise="false"
+        value="400">
+    <ItemComponent>
+      <Armor arm_armor="8" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_leg_sorceress_001"
+        name="{=str_tor_de_leg_sorceress_001}Druchii Sorceress Boots"
+        mesh="none"
+        culture="Culture.druchii"
+        weight="1.0"
+        appearance="4"
+        Type="LegArmor"
+        is_merchandise="false"
+        value="500">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="cloth" material_type="Cloth" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <!-- Dark Rider Blackened Equipment -->
+  <Item id="tor_de_head_dark_rider"
+        name="{=str_tor_de_head_dark_rider}Dark Rider Blackened Hood"
+        mesh="assassin_hood"
+        culture="Culture.druchii"
+        weight="1.0"
+        appearance="4"
+        Type="HeadArmor"
+        is_merchandise="false"
+        value="950">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="18" hair_cover_type="all" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_body_dark_rider"
+        name="{=str_tor_de_body_dark_rider}Dark Rider Blackened Armor"
+        mesh="de_infantry_001_torso"
+        culture="Culture.druchii"
+        weight="6.8"
+        appearance="3"
+        Type="BodyArmor"
+        is_merchandise="false"
+        value="3800">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="16" arm_armor="12" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_shoulder_dark_rider"
+        name="{=str_tor_de_shoulder_dark_rider}Dark Rider Blackened Cape"
+        mesh="de_infantry_001_shoulders"
+        culture="Culture.druchii"
+        weight="2.3"
+        appearance="2"
+        Type="Cape"
+        is_merchandise="false"
+        value="1200">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_leg_dark_rider"
+        name="{=str_tor_de_leg_dark_rider}Dark Rider Blackened Boots"
+        mesh="assassin_boot"
+        culture="Culture.druchii"
+        weight="1.5"
+        appearance="4"
+        Type="LegArmor"
+        is_merchandise="false"
+        value="650">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="cloth" material_type="Cloth" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <!-- Sisters of Slaughter Items -->
+  <Item id="tor_de_sos_body"
+        name="{=str_tor_de_sos_body}Sister of Slaughter Raiment"
+        mesh="wh_de_body_armor_sos_a"
+        culture="Culture.druchii"
+        weight="1.5"
+        difficulty="0"
+        is_merchandise="true"
+        value="2400"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="26" leg_armor="12" arm_armor="10" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="tor_de_sos_head"
+        name="{=str_tor_de_sos_head}Sister of Slaughter Mask"
+        mesh="wh_de_sister_of_slaughter_mask_heavy_a"
+        culture="Culture.druchii"
+        weight="1.0"
+        difficulty="0"
+        is_merchandise="true"
+        value="1100"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="18" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <!-- Executioner & Elite Items -->
+  <Item id="tor_de_executioner_body"
+        name="{=str_tor_de_executioner_body}Har Ganeth Plate"
+        mesh="wh_de_body_armor_khaine_a"
+        culture="Culture.druchii"
+        weight="8.5"
+        difficulty="0"
+        is_merchandise="true"
+        value="8500"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="42" leg_armor="22" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="tor_de_black_guard_body"
+        name="{=str_tor_de_black_guard_body}Black Guard Plate"
+        mesh="de_infantry_armor_plates_001"
+        culture="Culture.druchii"
+        weight="9.0"
+        difficulty="0"
+        is_merchandise="true"
+        value="10500"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="24" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="tor_de_doomfire_body"
+        name="{=str_tor_de_doomfire_body}Doomfire Raiment"
+        mesh="wh_de_body_armor_slaanesh_a"
+        culture="Culture.druchii"
+        weight="2.0"
+        difficulty="0"
+        is_merchandise="true"
+        value="2200"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="22" leg_armor="12" arm_armor="10" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="tor_de_leg_boots_infantry"
+        name="{=str_tor_de_leg_boots_infantry}Druchii Infantry Boots"
+        mesh="assassin_boot"
+        culture="Culture.druchii"
+        weight="1.2"
+        appearance="4"
+        Type="LegArmor"
+        is_merchandise="true"
+        value="1100">
+    <ItemComponent>
+      <Armor leg_armor="12" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_leg_boots_light"
+        name="{=str_tor_de_leg_boots_light}Druchii Light Boots"
+        mesh="assassin_boot"
+        culture="Culture.druchii"
+        weight="0.8"
+        appearance="4"
+        Type="LegArmor"
+        is_merchandise="true"
+        value="550">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="cloth" material_type="Cloth" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+  <Item id="tor_de_arm_bracers_light"
+        name="{=str_tor_de_arm_bracers_light}Druchii Light Bracers"
+        mesh="vambrace_a"
+        culture="Culture.druchii"
+        weight="0.5"
+        appearance="4"
+        Type="HandArmor"
+        is_merchandise="true"
+        value="450">
+    <ItemComponent>
+      <Armor arm_armor="8" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+
+</Items>

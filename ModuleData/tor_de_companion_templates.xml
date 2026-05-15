@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- Druchii Sorceress - Lore of Dark -->
+  <NPCCharacter id="tor_wanderer_druchii_sorceress_dark_0" 
+                default_group="ranged" 
+                name="{=str_tor_wanderer_druchii_sorceress_dark_0}{FIRSTNAME} the Dark Sorceress" 
+                occupation="Wanderer" 
+                culture="Culture.druchii" 
+                voice="ironic" 
+                age="35" 
+                skill_template="SkillSet.tor_skills_wanderer_druchii_sorceress" 
+                is_template="true" 
+                is_hero="false" 
+                race="elf" 
+                is_female="true">
+    <face>
+      <face_key_template value="BodyProperty.female_wood_elf" />
+      <hair_tags>
+        <hair_tag name="ElfHair" />
+      </hair_tags>
+    </face>
+    <Traits>
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-2" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_sorceress_dark_equipment" />
+      <EquipmentSet id="tor_de_sorceress_dark_equipment" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Druchii Sorceress - Lore of Fire -->
+  <NPCCharacter id="tor_wanderer_druchii_sorceress_fire_0" 
+                default_group="ranged" 
+                name="{=str_tor_wanderer_druchii_sorceress_fire_0}{FIRSTNAME} the Fire Sorceress" 
+                occupation="Wanderer" 
+                culture="Culture.druchii" 
+                voice="curt" 
+                age="32" 
+                skill_template="SkillSet.tor_skills_wanderer_druchii_sorceress" 
+                is_template="true" 
+                is_hero="false" 
+                race="elf" 
+                is_female="true">
+    <face>
+      <face_key_template value="BodyProperty.female_wood_elf" />
+      <hair_tags>
+        <hair_tag name="ElfHair" />
+      </hair_tags>
+    </face>
+    <Traits>
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_sorceress_fire_equipment" />
+      <EquipmentSet id="tor_de_sorceress_fire_equipment" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

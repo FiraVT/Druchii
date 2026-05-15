@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfExtendedItemObjectProperties>
+  <ExtendedItemObjectProperties ItemStringId="tor_de_repeater_crossbow_mounted" RaceLock="human">
+    <ItemTraits>
+      <ItemTrait>de_repeater_crossbow_trait</ItemTrait>
+      <ItemTrait>de_repeater_crossbow_ap_trait</ItemTrait>
+      <ItemTrait>de_repeater_crossbow_shield_trait</ItemTrait>
+    </ItemTraits>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <Description>Standard issue repeater crossbow for Dark Elf riders.</Description>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_de_doomfire_sword" RaceLock="human">
+    <ItemTraits>
+      <ItemTrait>de_doomfire_magical</ItemTrait>
+      <ItemTrait>de_doomfire_poison</ItemTrait>
+    </ItemTraits>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="0.60" />
+      <DamageProportionTuple DamageType="Magical" Percent="0.40" />
+    </DamageProportions>
+    <Description>Cursed magical scimitar that applies poison on hit.</Description>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_de_witch_elf_daggers" RaceLock="human">
+    <ItemTraits>
+      <ItemTrait>de_witch_poison</ItemTrait>
+    </ItemTraits>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="bolt_b">
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_de_bolts_large">
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_de_executioner_sword">
+    <ItemTraits>
+      <ItemTrait>de_cleave_trait</ItemTrait>
+    </ItemTraits>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <Description>Iconic heavy two-handed sword used by the Executioners of Har Ganeth.</Description>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_he_weapon_halberd_phoenix_001">
+    <ItemTraits>
+      <ItemTrait>de_cleave_trait</ItemTrait>
+    </ItemTraits>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="0.25" />
+      <DamageProportionTuple DamageType="Fire" Percent="0.75" />
+    </DamageProportions>
+    <Description>A masterwork halberd that burns with inner fire. Gains the Cleave trait.</Description>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_de_sister_whip" RaceLock="human">
+    <ItemTraits>
+      <ItemTrait>de_witch_poison</ItemTrait>
+    </ItemTraits>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <Description>A barbed whip that applies the Madness of Khaine.</Description>
+  </ExtendedItemObjectProperties>
+
+  <ExtendedItemObjectProperties ItemStringId="tor_de_head_dark_rider" RaceLock="human" />
+  <ExtendedItemObjectProperties ItemStringId="tor_de_body_dark_rider" RaceLock="human" />
+  <ExtendedItemObjectProperties ItemStringId="tor_de_shoulder_dark_rider" RaceLock="human" />
+  <ExtendedItemObjectProperties ItemStringId="tor_de_leg_dark_rider" RaceLock="human" />
+
+</ArrayOfExtendedItemObjectProperties>

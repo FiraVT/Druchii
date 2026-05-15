@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfCharacterExtendedInfo>
+  <!-- Starting Unit -->
+  <CharacterExtendedInfo id="tor_de_conscript">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+  </CharacterExtendedInfo>
+
+  <!-- New Tree Units -->
+  <CharacterExtendedInfo id="tor_de_bleaksword">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0" UpgradeCost="1" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_dreadspear">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0" UpgradeCost="1" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_darkshard">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+      <string>Piercing</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0" UpgradeCost="1" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_darkrider">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.1" UpgradeCost="2" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_darkrider_crossbow">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+      <string>Piercing</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.1" UpgradeCost="2" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_darkshard_shield">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+      <string>Piercing</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.1" UpgradeCost="2" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_darkrider_shield">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.2" UpgradeCost="3" />
+  </CharacterExtendedInfo>
+
+  <!-- Faction Leader -->
+  <CharacterExtendedInfo id="tor_de_lord_factionleader">
+    <Abilities>
+      <string>MurderousProwess</string>
+      <string>LesserDoomBolt</string>
+      <string>Soulblight</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+      <string>AbilityUser</string>
+      <string>SpellCaster</string>
+      <string>Piercing</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="1.0" UpgradeCost="0" />
+  </CharacterExtendedInfo>
+
+  <!-- Special Rare Units -->
+  <CharacterExtendedInfo id="tor_de_doomfire_warlocks">
+    <Abilities>
+      <string>LesserDoomBolt</string>
+      <string>Soulblight</string>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>AbilityUser</string>
+      <string>SpellCaster</string>
+      <string>MurderousProwess</string>
+      <string>Frenzy</string>
+    </Attributes>
+    <Resistances>
+      <!-- 40% Physical Resistance for protection -->
+      <ResistanceTuple ResistedDamageType="Physical" ReductionPercent="0.40" />
+    </Resistances>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="0.60" />
+      <DamageProportionTuple DamageType="Magical" Percent="0.40" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="1.0" UpgradeCost="10" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_witch_elves">
+    <Abilities>
+      <string>MurderousProwess</string>
+      <string>Witchbrew</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+      <string>Frenzy</string>
+      <string>Dodge</string>
+      <string>AbilityUser</string>
+    </Attributes>
+    <Resistances>
+      <!-- 20% Physical Resistance simulates the "Dodge" ability and keeps them alive in light clothes -->
+      <ResistanceTuple ResistedDamageType="Physical" ReductionPercent="0.20" />
+      <ResistanceTuple ResistedDamageType="Magical" ReductionPercent="0.20" />
+    </Resistances>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.3" UpgradeCost="4" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_har_ganeth_executioner">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.4" UpgradeCost="5" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_black_guard">
+    <Abilities>
+      <string>MurderousProwess</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+    </Attributes>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.5" UpgradeCost="6" />
+  </CharacterExtendedInfo>
+
+  <CharacterExtendedInfo id="tor_de_sister_of_slaughter">
+    <Abilities>
+      <string>MurderousProwess</string>
+      <string>Witchbrew</string>
+    </Abilities>
+    <Attributes>
+      <string>MurderousProwess</string>
+      <string>Frenzy</string>
+      <string>Dodge</string>
+      <string>AbilityUser</string>
+    </Attributes>
+    <Resistances>
+      <ResistanceTuple ResistedDamageType="Physical" ReductionPercent="0.25" />
+      <ResistanceTuple ResistedDamageType="Magical" ReductionPercent="0.25" />
+    </Resistances>
+    <DamageProportions>
+      <DamageProportionTuple DamageType="Physical" Percent="1.00" />
+    </DamageProportions>
+    <ResourceCost ResourceType="Slaves" UpkeepCost="0.4" UpgradeCost="5" />
+  </CharacterExtendedInfo>
+
+</ArrayOfCharacterExtendedInfo>
+
+

@@ -1,0 +1,21 @@
+# Standard C# ignores
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.log
+
+# IDEs
+.vs/
+.idea/
+*.sln.DotSettings.user
+
+# Bannerlord specific (if any generated artifacts exist)
+# Modules folders often contain bin/Win64_Shipping_Client which we might want to ignore if it's just build output
+# However, for a source repo, usually only the source is kept.
+
+# Backup/Temp
+*.bak
+*.tmp
+.junie/

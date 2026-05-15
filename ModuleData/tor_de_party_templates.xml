@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <MBPartyTemplate id="druchii_slaver_party">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="24" troop="NPCCharacter.tor_de_conscript" />
+      <PartyTemplateStack min_value="4" max_value="12" troop="NPCCharacter.tor_de_bleaksword" />
+      <PartyTemplateStack min_value="4" max_value="12" troop="NPCCharacter.tor_de_dreadspear" />
+      <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.tor_de_darkshard" />
+      <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.tor_de_darkrider" />
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.tor_de_witch_elves" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="druchii_militia_template">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.tor_de_conscript" />
+      <PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.tor_de_darkshard" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="druchii_villager_template">
+    <stacks>
+      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.tor_de_conscript" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="druchii_caravan_template">
+    <stacks>
+      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.tor_de_conscript" />
+      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.tor_de_darkrider" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

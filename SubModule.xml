@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+	<Name value="Xera Druchii - Complete Dark Elf Mod" />
+	<Id value="XeraDruchii" />
+	<Version value="v2.0.0" />
+	<ModuleCategory value="Singleplayer"/>
+	<DependedModules>
+		<DependedModule Id="Native" />
+		<DependedModule Id="SandBoxCore" />
+		<DependedModule Id="Sandbox" />
+		<DependedModule Id="StoryMode" />
+		<DependedModule Id="Bannerlord.ButterLib" />
+		<DependedModule Id="TOR_Core" />
+		<DependedModule Id="TOR_Armory" />
+		<DependedModule Id="TOR_Environment" />
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="XeraDruchii" />
+			<DLLName value="XeraDruchii.dll" />
+			<SubModuleClassType value="XeraDruchii.SubModule" />
+			<Tags>
+				<Tag key="DedicatedServerType" value="none" />
+				<Tag key="IsDevelopment" value="false" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="GameText" path="tor_de_strings" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<!-- Dark Elf Units and Troops -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="tor_de_troops" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="tor_de_companion_templates" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<!-- Items -->
+		<XmlNode>
+			<XmlName id="CraftedItem" path="tor_de_crafted_items" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="tor_de_items" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<!-- Equipment -->
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="tor_de_equipment" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<!-- Skills -->
+		<XmlNode>
+			<XmlName id="SkillSets" path="tor_de_skillsets" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value="CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<!-- World Data -->
+		<XmlNode>
+			<XmlName id="SPCultures" path="tor_cultures" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Kingdoms" path="tor_de_kingdoms" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="tor_clans" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="tor_heroes" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Religions" path="tor_religions" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="partyTemplates" path="tor_de_party_templates" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>

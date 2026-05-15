@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="druchii_kingdom" 
+             owner="Hero.tor_de_lord_factionleader"
+             banner_key="11.8.140.8000.8000.764.764.0.1.0.505.140.64.671.671.764.764.0.0.0" 
+             primary_banner_color="0xFF2E0854" 
+             secondary_banner_color="0xFF000000" 
+             label_color="0xFF800080" 
+             color="0xFF2E0854" 
+             color2="0xFF000000"
+             alternative_color="0xFF000000"
+             alternative_color2="0xFF2E0854"
+             culture="Culture.druchii" 
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_b"
+             name="{=str_darkelves_kingdom}Druchii" 
+             short_name="{=str_darkelves_kingdom}Druchii"
+             title="{=str_darkelves_kingdom}Druchii"
+             ruler_title="{=str_darkelves_ruler_title}Dreadlord"
+             text="{=str_darkelves_kingdom_text}The Druchii, or Dark Elves, are a cruel and malevolent race of elves who inhabit the cold land of Naggaroth. Born of civil war and betrayal, they have spent millennia raiding the world for slaves and sacrificial victims for their bloody god, Khaine.">
+        <relationships />
+        <policies>
+            <policy id="policy_feudal_inheritance" />
+        </policies>
+	</Kingdom>
+</Kingdoms>

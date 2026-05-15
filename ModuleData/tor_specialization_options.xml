@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSpecializationOption xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- Druchii Sorceress Specializations -->
+	<SpecializationOption Id="lore_of_dark_magic" ProfessionRequirement="option_3_de_sorceress" EquipmentSetId="tor_cc_de_apprentice" IconSprite="dhar">
+		<Name>{=tor_lore_dark_name}Dhar, Dark Magic</Name>
+		<Description>{=tor_lore_dark_desc}Dark Magic, known as Dhar in the Eltharin tongue, is the most dangerous form of sorcery. It is not a single wind, but the amalgamation of all eight winds of magic crushed together into a single, devastating force. Druchii Sorceresses are masters of this volatile power, using it to wither souls and blast their enemies into oblivion.</Description>
+		<PositiveEffect>{=tor_lore_dark_positive}Mastery of Dark Magic</PositiveEffect>
+		<NegativeEffect>{=tor_lore_dark_negative}Corrupting Influence</NegativeEffect>
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+	</SpecializationOption>
+
+	<SpecializationOption Id="lore_of_fire_de" ProfessionRequirement="option_3_de_sorceress" EquipmentSetId="tor_cc_de_apprentice" IconSprite="aqshy">
+		<Name>{=tor_lore_fire_name}Aqshy, the Red Wind</Name>
+		<Description>{=tor_lore_fire_desc}Ever-bright cinders and heat
+										Consume and destroy like wildfire
+										Subdue the blazing Bright magic
+										But take heed, for it is fickle
+										
+										Druchii Sorceresses who master the Red Wind are some of the most destructive and belligerent of their kind. A timely conjured tornado of violent flame and ash could be all that is needed to triumph over the enemies of Naggaroth.</Description>
+		<PositiveEffect>{=tor_lore_fire_positive}Mastery of Fire Magic</PositiveEffect>
+		<NegativeEffect>{=tor_lore_fire_negative}Volatile Temperament</NegativeEffect>
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+	</SpecializationOption>
+
+	<!-- Druchii Mercenary Specialization -->
+	<SpecializationOption Id="de_veteran_raider" ProfessionRequirement="option_3_de_mercenary" EquipmentSetId="tor_de_bleaksword_template" IconSprite="traits_martial_icon">
+		<Name>{=tor_de_spec_raider_name}Veteran Raider</Name>
+		<Description>{=tor_de_spec_raider_desc}You have spent years raiding the coastlines of the world. Your experience has taught you how to lead men in the most brutal of boarding actions and how to maximize the plunder from every conquest.</Description>
+		<PositiveEffect>{=tor_de_spec_raider_positive}Increased Looting and Leadership</PositiveEffect>
+		<NegativeEffect>{=tor_de_spec_raider_negative}Notorious Reputation</NegativeEffect>
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+	</SpecializationOption>
+</ArrayOfSpecializationOption>

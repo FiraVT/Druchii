@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbilityTemplates>
+    <!-- Kindleflame - Fire Sorceress Passive -->
+    <AbilityTemplate StringID="Kindleflame"
+                     Name="{=kindleflame_label_str}Kindleflame"
+                     SpriteName="firemagic_symbol"
+                     CoolDown="0"
+                     WindsOfMagicCost="0"
+                     Duration="15"
+                     AbilityType="CareerAbility"
+                     AbilityEffectType="Augment"
+                     TriggerType="TickOnce"
+                     CastType="Instant"
+                     AbilityTargetType="Self"
+                     CrosshairType="Self"
+                     TooltipDescription="{=kindleflame_description_str}Fire feeds fire, two blazes together are stronger and hotter than two apart. Casting Lore of Fire spells intensifies the heat, making all enemies across the battlefield 20% more vulnerable to fire damage for 15 seconds.">
+    </AbilityTemplate>
+
+    <!-- Murderous Prowess - Army-wide battle mechanic -->
+    <AbilityTemplate StringID="MurderousProwess"
+                     Name="{=murderous_prowess_label_str}Murderous Prowess"
+                     SpriteName="murderous_prowess_icon"
+                     CoolDown="0"
+                     WindsOfMagicCost="0"
+                     Duration="90"
+                     AbilityType="CareerAbility"
+                     AbilityEffectType="Augment"
+                     TriggerType="TickOnce"
+                     CastType="Instant"
+                     AbilityTargetType="Self"
+                     CrosshairType="Self"
+                     TooltipDescription="{=murderous_prowess_label_str}The Dark Elves' thirst for slaughter is insatiable. Once enough blood has been spilled on the battlefield, the Druchii enter a state of murderous frenzy, significantly increasing their combat prowess for a duration.">
+        <TriggeredEffect>de_murderous_prowess_trigger</TriggeredEffect>
+    </AbilityTemplate>
+
+    <!-- Lesser Doombolt - Dark Magic Spell -->
+    <AbilityTemplate StringID="LesserDoomBolt"
+                     Name="{=lesser_doombolt_label_str}Lesser Doombolt"
+                     SpriteName="doombolt_icon"
+                     CoolDown="90"
+                     WindsOfMagicCost="0"
+                     Duration="3"
+                     Radius="0.5"
+                     AbilityType="Spell"
+                     AbilityEffectType="Missile"
+                     BaseMovementSpeed="45"
+                     TickInterval="-1"
+                     TriggerType="OnCollision"
+                     HasLight="true"
+                     LightIntensity="50"
+                     LightRadius="10"
+                     ShadowCastEnabled="true"
+                     ParticleEffectPrefab="doombolt"
+                     ParticleEffectSizeModifier="1"
+                     SoundEffectToPlay="evilbolt_cast"
+                     CastType="WindUp"
+                     CastTime="0.5"
+                     AnimationActionName=""
+                     Offset="0.5"
+                     CrosshairType="Missile"
+                     MinDistance="3"
+                     MaxDistance="50"
+                     AbilityTargetType="WorldPosition"
+                     SpellTier="3"
+                     TooltipDescription="{=lesser_doombolt_description_str}A fast-moving, high-impact bolt of dark energy.">
+        <TriggeredEffect>de_doombolt_trigger</TriggeredEffect>
+    </AbilityTemplate>
+
+    <!-- Soulblight - Dark Magic Hex -->
+    <AbilityTemplate StringID="Soulblight"
+                     Name="{=soulblight_label_str}Soulblight"
+                     SpriteName="soulstealer_icon"
+                     CoolDown="120"
+                     WindsOfMagicCost="0"
+                     Duration="2"
+                     Radius="6"
+                     AbilityType="Spell"
+                     AbilityEffectType="Hex"
+                     TriggerType="TickOnce"
+                     CastType="Instant"
+                     CastTime="0"
+                     AnimationActionName=""
+                     Offset="0.5"
+                     AbilityTargetType="EnemiesInAOE"
+                     TargetCapturingRadius="10"
+                     MaxDistance="50"
+                     CrosshairType="TargetedAOE"
+                     SpellTier="3"
+                     TooltipDescription="{=soulblight_description_str}A debilitating curse that reduces enemy combat effectiveness.">
+        <TriggeredEffect>de_soulblight_trigger</TriggeredEffect>
+    </AbilityTemplate>
+
+    <!-- Witchbrew - Witch Elf Career Ability -->
+    <AbilityTemplate StringID="Witchbrew"
+                     Name="{=witchbrew_label_str}Witchbrew"
+                     SpriteName="witchbrew_icon"
+                     CoolDown="120"
+                     Duration="30"
+                     AbilityType="CareerAbility"
+                     AbilityEffectType="Augment"
+                     TriggerType="TickOnce"
+                     CastType="Instant"
+                     AbilityTargetType="Self"
+                     TooltipDescription="{=witchbrew_description_str}Massively increases attack speed and movement, simulating a mindless, murderous frenzy.">
+        <TriggeredEffect>de_witchbrew_trigger</TriggeredEffect>
+    </AbilityTemplate>
+
+</AbilityTemplates>

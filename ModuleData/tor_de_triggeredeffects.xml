@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TriggeredEffectTemplates>
+    <TriggeredEffectTemplate StringID="de_murderous_prowess_trigger"
+                             TargetType="Friendly"
+                             ImbuedStatusEffectDuration="90"
+                             ScriptNameToTrigger="none">
+        <ImbuedStatusEffect>de_murderous_prowess_melee</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_murderous_prowess_charge</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_murderous_prowess_ap_missile</ImbuedStatusEffect>
+    </TriggeredEffectTemplate>
+
+    <!-- Doomfire Warlocks Spells -->
+    <TriggeredEffectTemplate StringID="de_doombolt_trigger"
+                             BurstParticleEffectPrefab="doom_bolt_explosion"
+                             DoNotAlignParticleEffectPrefabOnImpact="true"
+                             SoundEffectId="fireball_explosion"
+                             SoundEffectLength="2.5"
+                             DamageType="Magical"
+                             DamageAmount="150"
+                             Radius="6"
+                             HasShockWave="true"
+                             TargetType="Enemy"
+                             DamageVariance="0.2"
+                             ScriptNameToTrigger="none" />
+
+    <TriggeredEffectTemplate StringID="de_soulblight_trigger"
+                             BurstParticleEffectPrefab="curse_of_midnight_wind"
+                             SoundEffectId="none"
+                             ImbuedStatusEffectDuration="30"
+                             DamageAmount="0"
+                             Radius="10"
+                             HasShockWave="false"
+                             TargetType="Enemy"
+                             DamageVariance="0">
+        <ImbuedStatusEffect>de_soulblight_ats_debuff</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_soulblight_dmg_debuff</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_soulblight_res_debuff</ImbuedStatusEffect>
+    </TriggeredEffectTemplate>
+
+    <!-- Doomfire Poison (Applied on hit) -->
+    <TriggeredEffectTemplate StringID="de_doomfire_poison_trigger"
+                             BurstParticleEffectPrefab="none"
+                             SoundEffectId="none"
+                             ImbuedStatusEffectDuration="10"
+                             DamageAmount="0"
+                             Radius="0"
+                             HasShockWave="false"
+                             TargetType="Enemy"
+                             DamageVariance="0">
+        <ImbuedStatusEffect>de_poison_speed_debuff</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_poison_damage_debuff</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_poison_dot</ImbuedStatusEffect>
+    </TriggeredEffectTemplate>
+    
+    <!-- Witch Elf Poison (Applied on hit) -->
+    <TriggeredEffectTemplate StringID="de_witch_poison_trigger"
+                             BurstParticleEffectPrefab="none"
+                             SoundEffectId="none"
+                             ImbuedStatusEffectDuration="10"
+                             DamageAmount="0"
+                             Radius="0"
+                             HasShockWave="false"
+                             TargetType="Enemy"
+                             DamageVariance="0">
+        <ImbuedStatusEffect>de_poison_speed_debuff</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_poison_damage_debuff</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_poison_dot</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_madness_of_khaine_ats</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_madness_of_khaine_res</ImbuedStatusEffect>
+    </TriggeredEffectTemplate>
+
+    <!-- Witchbrew Activation -->
+    <TriggeredEffectTemplate StringID="de_witchbrew_trigger" TargetType="Self" ImbuedStatusEffectDuration="30">
+        <ImbuedStatusEffect>de_witchbrew_frenzy</ImbuedStatusEffect>
+        <ImbuedStatusEffect>de_witchbrew_movement</ImbuedStatusEffect>
+    </TriggeredEffectTemplate>
+
+</TriggeredEffectTemplates>

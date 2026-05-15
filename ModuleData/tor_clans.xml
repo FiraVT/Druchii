@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+    <Faction id="druchii_clan_2"
+             name="{=str_clan_name_druchii_2}House of Karond Kar"
+             culture="Culture.druchii"
+             super_faction="Kingdom.druchii_kingdom"
+             is_noble="true"
+             owner="Hero.tor_druchii_lord_2"
+             default_party_template="PartyTemplate.druchii_slaver_party"
+             tier="5"
+             initial_renown="1000"
+             is_minor_faction="false"
+             text="{=str_clan_desc_druchii_2}The Slaver Gate of Naggaroth, Karond Kar is a city of despair where the captives of a hundred raids are brought to be broken." />
+    <Faction id="druchii_clan_3"
+             name="{=str_clan_name_druchii_3}House of Hag Graef"
+             culture="Culture.druchii"
+             super_faction="Kingdom.druchii_kingdom"
+             is_noble="true"
+             owner="Hero.tor_druchii_lord_0"
+             default_party_template="PartyTemplate.druchii_slaver_party"
+             tier="5"
+             initial_renown="1200"
+             is_minor_faction="false"
+             text="{=str_clan_desc_druchii_3}The Dark Crag, Hag Graef is the most dreaded of cities, built in a sunless chasm and ruled by the cruelest of Dreadlords." />
+</Factions>

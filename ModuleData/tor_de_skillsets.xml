@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillSets>
+  <SkillSet id="tor_skills_witch_elves">
+    <skill id="Athletics" value="300" />
+    <skill id="OneHanded" value="300" />
+    <skill id="Riding" value="120" />
+    <skill id="TwoHanded" value="120" />
+    <skill id="Polearm" value="120" />
+    <skill id="Bow" value="120" />
+    <skill id="Crossbow" value="120" />
+    <skill id="Throwing" value="120" />
+    <skill id="Gunpowder" value="120" />
+  </SkillSet>
+  <SkillSet id="tor_skills_har_ganeth_executioner">
+    <skill id="Athletics" value="250" />
+    <skill id="TwoHanded" value="300" />
+    <skill id="OneHanded" value="150" />
+    <skill id="Riding" value="120" />
+    <skill id="Polearm" value="120" />
+    <skill id="Bow" value="120" />
+    <skill id="Crossbow" value="120" />
+    <skill id="Throwing" value="120" />
+    <skill id="Gunpowder" value="120" />
+  </SkillSet>
+  <SkillSet id="tor_skills_black_guard">
+    <skill id="Athletics" value="280" />
+    <skill id="Polearm" value="300" />
+    <skill id="OneHanded" value="200" />
+    <skill id="TwoHanded" value="150" />
+    <skill id="Riding" value="120" />
+    <skill id="Bow" value="120" />
+    <skill id="Crossbow" value="120" />
+    <skill id="Throwing" value="120" />
+    <skill id="Gunpowder" value="120" />
+  </SkillSet>
+  <SkillSet id="tor_skills_sister_of_slaughter">
+    <skill id="Athletics" value="350" />
+    <skill id="OneHanded" value="300" />
+    <skill id="Riding" value="120" />
+    <skill id="TwoHanded" value="120" />
+    <skill id="Polearm" value="120" />
+    <skill id="Bow" value="120" />
+    <skill id="Crossbow" value="120" />
+    <skill id="Throwing" value="120" />
+    <skill id="Gunpowder" value="120" />
+  </SkillSet>
+  <SkillSet id="tor_skills_wanderer_druchii_sorceress">
+    <skill id="Athletics" value="100" />
+    <skill id="OneHanded" value="100" />
+    <skill id="Riding" value="80" />
+    <skill id="Spellcraft" value="200" />
+    <skill id="Tactics" value="80" />
+    <skill id="Scouting" value="60" />
+    <skill id="Steward" value="60" />
+    <skill id="Medicine" value="40" />
+    <skill id="Engineering" value="20" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="20" />
+    <skill id="Crossbow" value="20" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+</SkillSets>

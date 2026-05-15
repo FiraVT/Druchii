@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+    <!-- Dialog Strings -->
+    <string id="druchii_dialog_01" text="My Lord! We have taken many captives from the nearby villages. They are yours to command." />
+    <string id="druchii_dialog_02" text="I have need of your captives. Hand over the spoils." />
+    <string id="druchii_dialog_03" text="Carry on with your work." />
+
+    <!-- Horde Camp Strings -->
+    <string id="horde_camp_desc" text="Your Druchii forces have established a camp.{newline}Slaves: {SLAVE_COUNT}{newline}Upkeep Reduction: {UPKEEP_BONUS}% | Party Size Bonus: {PARTY_SIZE_BONUS}{newline}Recruitment: {RECRUIT_CAP} / {RECRUIT_MAX} per day | Slave Capture Rate: {CAPTURE_RATE}%" />
+    <string id="horde_camp_deploy" text="Deploy Druchii Encampment" />
+    <string id="horde_camp_wait_btn" text="Wait and Oversee Encampment" />
+    <string id="horde_camp_build_btn" text="Manage Construction" />
+    <string id="horde_camp_sacrifice_btn" text="Sacrifice Slaves to Khaine" />
+    <string id="horde_camp_recruit_btn" text="Recruit (Capacity: {RECRUIT_CAP} / {RECRUIT_MAX})" />
+    <string id="horde_camp_recruit_desc" text="Select troops to recruit. Each unit consumes 1 capacity point. Gold: {PLAYER_GOLD} | Capacity: {RECRUIT_CAP} / {RECRUIT_MAX}" />
+    <string id="horde_camp_back_btn" text="Back" />
+    <string id="horde_camp_pack_btn" text="Break Camp" />
+    <string id="horde_camp_leave_btn" text="Leave Camp" />
+    <string id="horde_camp_build_desc" text="Select a structure to construct. Slaves: {SLAVE_COUNT} | Gold: {PLAYER_GOLD}{BUILD_STATUS}" />
+    <string id="horde_camp_visitor_desc" text="You have encountered a Druchii encampment. The air is thick with the scent of blood and sea salt." />
+    <string id="horde_camp_visitor_talk_btn" text="Request an audience" />
+    <string id="horde_camp_process_prisoners_btn" text="Process Prisoners into Slaves" />
+    <string id="horde_camp_build_complete" text="Construction Complete: {BUILDING_NAME}!" />
+    <string id="horde_camp_recruit_hero_btn" text="Recruit Hero" />
+    <string id="horde_camp_recruit_hero_desc" text="Recruit a powerful Druchii hero to lead your forces. Gold: {PLAYER_GOLD}" />
+
+    <!-- Character Creation Strings -->
+    <string id="str_darkelves_culture_desc" text="The Druchii, or Dark Elves, are a cruel and malevolent race of elves who inhabit the cold and desolate land of Naggaroth. Led by the Witch King Malekith, they are masters of dark magic, piracy, and slavery." />
+    <string id="str_clan_name_druchii_1" text="House of Naggarond" />
+    <string id="str_clan_name_druchii_2" text="House of Ghrond" />
+    <string id="str_clan_name_druchii_3" text="House of Clar Karond" />
+    <string id="str_clan_name_druchii_4" text="House of Karond Kar" />
+    <string id="str_clan_name_druchii_5" text="House of Hag Graef" />
+    <string id="tor_cc_de_option1_1_label" text="Druchii Nobility" />
+    <string id="tor_cc_de_option1_1_text" text="Born into a noble house of Naggarond, you were raised with the expectation of absolute loyalty to the Witch King and absolute cruelty to your inferiors." />
+    <string id="tor_cc_de_option1_2_label" text="Corsair Family" />
+    <string id="tor_cc_de_option1_2_text" text="The sea is in your blood. Your family has sailed the Black Arks for generations, raiding the coasts of Ulthuan and the Old World." />
+    <string id="tor_cc_de_option2_1_label" text="Coastal Raiding" />
+    <string id="tor_cc_de_option2_1_text" text="You spent your youth on raiding parties, learning how to strike fast and hard, and how to secure valuable captives for the slave markets." />
+    <string id="tor_cc_de_option2_2_label" text="Court Intrigue" />
+    <string id="tor_cc_de_option2_2_text" text="Naggaroth is as dangerous in the courts as it is on the battlefield. You learned early on that a well-placed word or a subtle poison can be more effective than a sword." />
+    <string id="tor_cc_de_option3_1_label" text="Druchii Mercenary" />
+    <string id="tor_cc_de_option3_1_effect" text="Druchii Mercenary Career" />
+    <string id="tor_cc_de_option3_1_text" text="You have left the service of the Dreadlords to seek your own fortune. As a mercenary, your skills are for hire to the highest bidder, though your heart remains as cold as the Naggaroth ice." />
+    <string id="tor_cc_de_option3_2_label" text="Druchii Sorceress" />
+    <string id="tor_cc_de_option3_2_effect" text="Druchii Sorceress Career" />
+    <string id="tor_cc_de_option3_2_text" text="You have been trained in the Convent of Sorceresses. You wield the dark winds of magic with terrifying precision, a power reserved strictly for the females of your race." />
+
+    <!-- Custom Resources -->
+    <string id="tor_custom_resource_name.Slaves" text="Slaves" />
+    <string id="tor_custom_resource_description.Slaves" text="Slaves are the lifeblood of the Druchii economy. They are captured in battle and used for labor, sacrifice, and as a currency among the Dark Elves." />
+    <string id="tor_custom_resource_slaves_count" text="Current Slaves" />
+
+    <!-- Companion Name Strings -->
+    <string id="str_tor_wanderer_druchii_sorceress_dark_0" text="{FIRSTNAME} the Dark Sorceress" />
+    <string id="str_tor_wanderer_druchii_sorceress_fire_0" text="{FIRSTNAME} the Fire Sorceress" />
+
+    <!-- Dark Sorceress Strings -->
+    <string id="tor_introduction.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_intro_de_sorc_dark}Greetings, worm. You look like you could use the guidance of one who has mastered the winds of Dhar." />
+    <string id="tor_prebackstory.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_preback_de_sorc_dark}You wish to know my story? Knowledge is a dangerous thing, but if you insist..." />
+    <string id="tor_backstory_a.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_back_a_de_sorc_dark}I was born in Naggarond, the City of Cold, where only the strongest survive and the weak are but fodder for the sacrificial altars." />
+    <string id="tor_backstory_b.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_back_b_de_sorc_dark}I spent decades in the Ghrond, learning to twist the winds of magic to my will under the watchful eyes of the Convent." />
+    <string id="tor_backstory_c.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_back_c_de_sorc_dark}My rivals thought they could exile me to these primitive lands. They were wrong. I am merely expanding my influence and seeking new sources of power." />
+    <string id="tor_backstory_d.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_back_d_de_sorc_dark}I am a Sorceress of the Druchii. My magic can wither the souls of your enemies and leave them as empty husks." />
+    <string id="tor_hire_companion_payment.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_payment_de_sorc_dark}My services are not for the destitute. I shall require {GOLD_AMOUNT}{GOLD_ICON} to compensate for my time." />
+
+    <!-- Fire Sorceress Strings -->
+    <string id="tor_introduction.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_intro_de_sorc_fire}Be careful where you step. The air around me is prone to... spontaneous combustion when my temper flares." />
+    <string id="tor_prebackstory.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_preback_de_sorc_fire}My past is written in ash and flame. Do you truly wish to hear it?" />
+    <string id="tor_backstory_a.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_back_a_de_sorc_fire}Fire is the purest of elements. It cleanses the weak and empowers those with the will to command it." />
+    <string id="tor_backstory_b.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_back_b_de_sorc_fire}In the shadows of the Iron Mountains, I mastered the flame. It spoke to me of destruction and the glory of Khaine." />
+    <string id="tor_backstory_c.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_back_c_de_sorc_fire}I seek to burn the enemies of Naggaroth, and perhaps a few others who are foolish enough to cross my path." />
+    <string id="tor_backstory_d.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_back_d_de_sorc_fire}I am a Mistress of the Lore of Fire. Together, we shall leave nothing but cinders in our wake." />
+    <string id="tor_hire_companion_payment.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_payment_de_sorc_fire}The cost of such power is {GOLD_AMOUNT}{GOLD_ICON}. A small price to pay for the sun's own fury." />
+
+    <!-- Shared/Generic Strings -->
+    <string id="tor_hire_companion_tell_me_p.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_tell_me_de_sorc}Tell me of your path, Sorceress." />
+    <string id="tor_hire_companion_tell_me_p.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_tell_me_de_sorc_f}Tell me of your path, Sorceress." />
+    <string id="tor_response_1.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_resp_1_de_sorc}Continue." />
+    <string id="tor_response_1.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_resp_1_de_sorc_f}Continue." />
+    <string id="tor_response_2.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_resp_2_de_sorc}I see." />
+    <string id="tor_response_2.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_resp_2_de_sorc_f}I see." />
+    <string id="tor_hire_companion_p.tor_wanderer_druchii_sorceress_dark_0" text="{=str_tor_hire_de_sorc}Your power would be useful." />
+    <string id="tor_hire_companion_p.tor_wanderer_druchii_sorceress_fire_0" text="{=str_tor_hire_de_sorc_f}Your power would be useful." />
+
+    <!-- Druchii Faction Strings -->
+    <string id="str_darkelves_culture" text="Druchii" />
+    <string id="str_darkelves_kingdom" text="Druchii Sovereignty" />
+    <string id="str_tor_religion_cult_khaine" text="Cult of Khaine" />
+    <string id="tor_religion_description" text="The religions of the Old World are many and varied." />
+    <string id="tor_religion_blessing_name" text="Divine Blessing" />
+    <string id="tor_religion_blessing_effect_description" text="The gods grant their favour to those who are faithful." />
+    <string id="tor_religion_name_of_god" text="The God" />
+    <string id="str_tor_deity_khaine" text="Khaine" />
+    <string id="tor_religion_description.cult_of_khaine" text="{=str_tor_religion_description_cult_of_khaine}The Cult of Khaine is the dominant religion of the Druchii, centered around the worship of the Bloody-Handed God of Murder. It is a faith of blood sacrifice, ruthless ambition, and the pursuit of power through any means. Khaine's temples are filled with the screams of the dying and the fervent prayers of his disciples, particularly the Witch Elves who serve as his handmaidens." />
+    <string id="tor_religion_blessing_name.cult_of_khaine" text="Khaine's Favour" />
+    <string id="tor_religion_blessing_effect_description.cult_of_khaine" text="Increases lethality in combat and grants a chance to ignore enemy armour." />
+    <string id="tor_religion_name_of_god.cult_of_khaine" text="Khaine" />
+
+    <!-- Druchii Lord Titles -->
+    <string id="str_tor_de_lord_0" text="Druchii Dreadlord" />
+    <string id="str_tor_de_lord_1" text="Druchii High Sorceress" />
+    <string id="str_tor_de_lord_2" text="Druchii Beastmaster" />
+
+    <!-- Druchii Town NPCs -->
+    <string id="str_tor_de_villager" text="Druchii Slave-Driver" />
+    <string id="str_tor_de_merchant" text="Druchii Slave-Trader" />
+    <string id="str_tor_de_blacksmith" text="Druchii Armor-Smith" />
+    <string id="str_tor_de_weaponsmith" text="Druchii Weapon-Smith" />
+    <string id="str_tor_de_townsman" text="Druchii Townsman" />
+    <string id="str_tor_de_townswoman" text="Druchii Townswoman" />
+    <string id="str_tor_de_beggar" text="Druchii Outcast" />
+    <string id="str_tor_de_dancer" text="Druchii Dancer" />
+    <string id="str_tor_de_commoner" text="Druchii Halls Dweller" />
+    <string id="str_tor_de_tavernkeeper" text="Druchii Tavernkeeper" />
+    <string id="str_tor_de_armorer" text="Druchii Armorer" />
+    <string id="str_tor_de_musician" text="Druchii Musician" />
+    <string id="str_tor_de_taverngamehost" text="Druchii Game Host" />
+    <string id="str_tor_de_prison_guard" text="Druchii Prison Guard" />
+    <string id="str_tor_de_tournament_master" text="Druchii Arena Master" />
+    <string id="str_tor_de_ransom_broker" text="Druchii Ransom Broker" />
+    <string id="str_tor_de_gangleader_bodyguard" text="Druchii Thug" />
+    <string id="str_tor_de_shop_worker" text="Druchii Shopworker" />
+    <string id="str_tor_de_village_woman" text="Druchii Villager" />
+    <string id="str_tor_de_horse_merchant" text="Druchii Horse Merchant" />
+
+    <!-- Druchii Notables -->
+    <string id="str_spc_notable_druchii_merchant" text="Druchii Merchant" />
+    <string id="str_spc_notable_druchii_artisan" text="Druchii Artisan" />
+    <string id="str_spc_notable_druchii_gangleader" text="Druchii Slave Master" />
+    <string id="str_spc_notable_druchii_preacher" text="Druchii Disciple" />
+    <string id="str_spc_notable_druchii_rural" text="Druchii Landowner" />
+    <string id="str_spc_notable_druchii_headman" text="Druchii Overseer" />
+
+    <!-- Localization Keys for XSLT -->
+    <string id="de_male_name_1" text="Malek" />
+    <string id="de_male_name_2" text="Malas" />
+    <string id="de_male_name_3" text="Urias" />
+    <string id="de_male_name_4" text="Kouras" />
+    <string id="de_male_name_5" text="Rakath" />
+    <string id="de_male_name_6" text="Tullas" />
+    <string id="de_male_name_7" text="Yeulas" />
+    <string id="de_male_name_8" text="Furas" />
+    <string id="de_male_name_9" text="Varek" />
+    <string id="de_male_name_10" text="Sila" />
+    <string id="de_male_name_11" text="Dreadlord" />
+    <string id="de_male_name_12" text="Darkblade" />
+    <string id="de_male_name_13" text="Coldheart" />
+    <string id="de_male_name_14" text="Vaelen" />
+    <string id="de_male_name_15" text="Kaelen" />
+    <string id="de_male_name_16" text="Thraen" />
+    <string id="de_male_name_17" text="Naelar" />
+    <string id="de_male_name_18" text="Zylas" />
+    <string id="de_male_name_19" text="Korith" />
+    <string id="de_male_name_20" text="Malida" />
+
+    <string id="de_female_name_1" text="Moratha" />
+    <string id="de_female_name_2" text="Hellebra" />
+    <string id="de_female_name_3" text="Drusala" />
+    <string id="de_female_name_4" text="Malida" />
+    <string id="de_female_name_5" text="Kahlith" />
+    <string id="de_female_name_6" text="Anethra" />
+    <string id="de_female_name_7" text="Eshara" />
+    <string id="de_female_name_8" text="Lolith" />
+    <string id="de_female_name_9" text="Viconia" />
+    <string id="de_female_name_10" text="Kaelith" />
+    <string id="de_female_name_11" text="Saelith" />
+    <string id="de_female_name_12" text="Malarith" />
+    <string id="de_female_name_13" text="Draka" />
+    <string id="de_female_name_14" text="Kraven" />
+    <string id="de_female_name_15" text="Nightshade" />
+
+    <string id="de_clan_name_1" text="Nightblade" />
+    <string id="de_clan_name_2" text="Darkheart" />
+    <string id="de_clan_name_3" text="Ironheart" />
+    <string id="de_clan_name_4" text="Coldheart" />
+    <string id="de_clan_name_5" text="Nightshade" />
+    <string id="de_clan_name_6" text="Bloodwrack" />
+    <string id="de_clan_name_7" text="Shadowbane" />
+    <string id="de_clan_name_8" text="Dreadbringer" />
+    <string id="de_clan_name_9" text="Soulreaper" />
+    <string id="de_clan_name_10" text="Doomweaver" />
+    
+    <!-- Career Choice Strings -->
+    <string id="tor_careerchoice_description.DruchiiSorceressRoot" text="Harness the dark power of the Convent. Your magic is a weapon of absolute destruction, leaving nothing but husks in your wake." />
+    <string id="tor_careerchoice_description.DruchiiMercenaryRoot" text="A life of calculated violence and profit. You lead your company with cold efficiency, selling your blade to the highest bidder." />
+    <string id="tor_careerchoice_description.BonesAnFirepitzPassive1" text="Get 15 mumbo-jumbo pointz afta' winnin' brawls" />
+
+    <!-- TOR_Core Text Mismatch Fixes -->
+    <string id="tor_powerstone_fire_amp_150_desc" text="+150% Fire amp., 15% Fire dmg." />
+    <string id="tor_powerstone_light_mov_trait_desc" text="40% magical dmg., slows enemies on hit" />
+    <string id="tor_powerstone_heavens_dmg_elec_frost_desc" text="+20% lightning, +20% frost dmg, 20% slowdown" />
+    <string id="tor_careerchoice_description.IronDrakesPassive4" text="+10% ammunition for 'Ironbreaker' troops per Ironbeard companion." />
+    <string id="tor_careerchoice_description.GiantSlayerPassive2" text="If armour weight is less than 9, +25% personal melee damage to mounted/monsterous troops." />
+    <string id="tor_careerchoice_description.TheLastJourneyPassive4" text="+40% ranged 'Physical Resistance' for all 'Slayer' troops and companions." />
+    <string id="tor_careerchoice_description.ChiselAndHammerPassive4" text="-25% 'Oathgold' cost to upgrade 'Elite' troops." />
+    <string id="tor_careerchoice_description.ForHearthAndHomePassive3" text="For every troop affected by a 'Rune', the party gains +0.05 healing." />
+    <string id="tor_careerchoice_description.BrutalCunninPassive4" text="No more stumblin' from puny hits" />
+    <string id="str_darkelves_ruler_title" text="Dreadlord" />
+    <string id="str_darkelves_kingdom_text" text="The Druchii, or Dark Elves, are a cruel and malevolent race of elves who inhabit the cold land of Naggaroth. Born of civil war and betrayal, they have spent millennia raiding the world for slaves and sacrificial victims for their bloody god, Khaine." />
+
+    <!-- Troop and Item Strings -->
+    <string id="str_tor_de_conscript" text="Druchii Warrior" />
+    <string id="str_tor_de_bleaksword" text="Druchii Bleaksword (Shields)" />
+    <string id="str_tor_de_dreadspear" text="Druchii Dreadspear (Shields)" />
+    <string id="str_tor_de_darkshard" text="Druchii Darkshard" />
+    <string id="str_tor_de_darkshard_shield" text="Druchii Darkshard (Shields)" />
+    <string id="str_tor_de_darkrider_crossbow" text="Druchii Dark Rider (Repeater Crossbow)" />
+    <string id="str_tor_de_darkrider" text="Druchii Dark Rider" />
+    <string id="str_tor_de_darkrider_shield" text="Druchii Dark Rider (Shields)" />
+    <string id="str_tor_de_repeater_crossbow_mounted" text="Druchii Repeater Crossbow" />
+    <string id="murderous_prowess_label_str" text="Murderous Prowess" />
+    <string id="murderous_prowess_description_str" text="The Dark Elves' thirst for slaughter is insatiable. Once enough blood has been spilled on the battlefield, the Druchii enter a state of murderous frenzy, significantly increasing their combat prowess for a duration." />
+    <string id="tor_extendedInfo.MurderousProwess" text="Murderous Prowess: Significantly increases combat prowess once enough blood has been spilled." />
+    <string id="str_tor_de_doomfire_warlocks" text="Doomfire Warlocks" />
+    <string id="str_tor_de_doomfire_sword" text="Cursed Scimitar of Hag Graef" />
+    <string id="lesser_doombolt_label_str" text="Lesser Doombolt" />
+    <string id="lesser_doombolt_description_str" text="A fast-moving, high-impact bolt of dark energy." />
+    <string id="soulblight_label_str" text="Soulblight" />
+    <string id="soulblight_description_str" text="A debilitating curse that reduces enemy combat effectiveness." />
+    <string id="str_tor_de_lord_factionleader" text="Draxor Bloodscar" />
+    <string id="str_tor_de_witch_elves" text="Witch Elves" />
+    <string id="str_tor_de_witch_elf_daggers" text="Witch Elf Sacrificial Daggers" />
+    <string id="str_tor_de_witch_elf_body" text="Witch Elf Raiment" />
+    <string id="str_tor_de_witch_elf_head" text="Witch Elf Circlet" />
+    <string id="str_tor_de_har_ganeth_executioner" text="Har Ganeth Executioner" />
+    <string id="str_tor_de_black_guard" text="Black Guard of Naggarond" />
+    <string id="str_tor_de_sister_of_slaughter" text="Sister of Slaughter" />
+    <string id="str_tor_de_executioner_sword" text="Draich of Har Ganeth" />
+    <string id="str_tor_de_bolts_large" text="Large Quiver of Bolts" />
+    <string id="str_tor_de_sister_whip" text="Whip of Agony" />
+    <string id="str_tor_notable_druchii_0" text="Ruthless Druchii Merchant" />
+    <string id="str_tor_notable_druchii_1" text="Druchii Artisan" />
+    <string id="str_tor_notable_druchii_2" text="Druchii Gang Leader" />
+    <string id="str_tor_notable_druchii_3" text="Druchii Headman" />
+    <string id="str_tor_de_deserter_lord_0" text="Druchii Outcast" />
+    <string id="str_tor_de_deserter_lord_1" text="Druchii Exile" />
+    <string id="str_tor_de_weapon_sword_001" text="Druchii Longsword" />
+    <string id="str_tor_de_weapon_sword_002" text="Druchii Curved Sword" />
+    <string id="str_tor_de_weapon_spear_001" text="Druchii Spear" />
+    <string id="str_tor_de_weapon_spear_002" text="Druchii Heavy Spear" />
+    <string id="str_tor_de_weapon_shield_001" text="Druchii Heater Shield" />
+    <string id="str_tor_de_head_dark_rider" text="Dark Rider Blackened Hood" />
+    <string id="str_tor_de_body_dark_rider" text="Dark Rider Blackened Armor" />
+    <string id="str_tor_de_shoulder_dark_rider" text="Dark Rider Blackened Cape" />
+    <string id="str_tor_de_leg_dark_rider" text="Dark Rider Blackened Boots" />
+    <string id="str_tor_de_sos_body" text="Sister of Slaughter Raiment" />
+    <string id="str_tor_de_sos_head" text="Sister of Slaughter Mask" />
+    <string id="str_tor_de_executioner_body" text="Har Ganeth Plate" />
+    <string id="str_tor_de_black_guard_body" text="Black Guard Plate" />
+    <string id="str_tor_de_body_armor_infantry_light" text="Druchii Light Infantry Armor" />
+    <string id="str_tor_de_doomfire_body" text="Doomfire Raiment" />
+    <string id="str_tor_de_leg_boots_infantry" text="Druchii Infantry Boots" />
+    <string id="str_tor_de_leg_boots_light" text="Druchii Light Boots" />
+    <string id="str_tor_de_arm_bracers_light" text="Druchii Light Bracers" />
+</strings>

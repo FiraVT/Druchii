@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- Tier 2: Druchii Warrior (Lvl 6) -->
+  <NPCCharacter id="tor_de_conscript" default_group="Infantry" level="6" name="{=str_tor_de_conscript}Druchii Warrior" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level6" is_basic_troop="true" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_bleaksword" />
+      <upgrade_target id="NPCCharacter.tor_de_dreadspear" />
+      <upgrade_target id="NPCCharacter.tor_de_darkshard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_conscript_template_xera" />
+      <EquipmentSet id="tor_de_conscript_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 3: The Professionals (Lvl 11) -->
+  <NPCCharacter id="tor_de_bleaksword" default_group="Infantry" level="11" name="{=str_tor_de_bleaksword}Druchii Bleaksword (Shields)" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level16" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_har_ganeth_executioner" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_bleaksword_template_xera" />
+      <EquipmentSet id="tor_de_bleaksword_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="tor_de_dreadspear" default_group="Infantry" level="11" name="{=str_tor_de_dreadspear}Druchii Dreadspear (Shields)" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level16" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_darkrider" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_dreadspear_template_xera" />
+      <EquipmentSet id="tor_de_dreadspear_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="tor_de_darkshard" default_group="Ranged" level="11" name="{=str_tor_de_darkshard}Druchii Darkshard" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level11" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_darkshard_shield" />
+      <upgrade_target id="NPCCharacter.tor_de_darkrider_crossbow" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_darkshard_template_xera" />
+      <EquipmentSet id="tor_de_darkshard_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 4: The Specialists (Lvl 16) -->
+  <NPCCharacter id="tor_de_darkshard_shield" default_group="Ranged" level="16" name="{=str_tor_de_darkshard_shield}Druchii Darkshard (Shields)" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level16" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="60" />
+    </skills>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_de_darkshard_shield_template_xera" />
+      <EquipmentSet id="tor_de_darkshard_shield_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="tor_de_darkrider_crossbow" default_group="HorseArcher" level="16" name="{=str_tor_de_darkrider_crossbow}Druchii Dark Rider (Repeater Crossbow)" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level16" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_crossbow_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_crossbow_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="tor_de_darkrider" default_group="Cavalry" level="16" name="{=str_tor_de_darkrider}Druchii Dark Rider" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level16" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <skills>
+      <!-- Mid-tier light cavalry - lower skills, less armor -->
+      <skill id="Riding" value="100" />
+      <skill id="Polearm" value="90" />
+      <skill id="OneHanded" value="80" />
+      <skill id="Athletics" value="85" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_darkrider_shield" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_unshielded_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_unshielded_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 5: The Elite (Lvl 21) -->
+  <NPCCharacter id="tor_de_darkrider_shield" default_group="Cavalry" level="21" name="{=str_tor_de_darkrider_shield}Druchii Dark Rider (Shields)" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level21" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <skills>
+      <!-- Elite light cavalry - higher skills, better armor, faster -->
+      <skill id="Riding" value="140" />
+      <skill id="Polearm" value="130" />
+      <skill id="OneHanded" value="130" />
+      <skill id="Athletics" value="120" />
+    </skills>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Special Rare Units -->
+  <!-- Tier 9: Doomfire Warlocks (Lvl 41) -->
+  <NPCCharacter id="tor_de_doomfire_warlocks" default_group="Cavalry" level="41" name="{=str_tor_de_doomfire_warlocks}Doomfire Warlocks" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level41" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <skills>
+      <skill id="Spellcraft" value="100" />
+    </skills>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_de_doomfire_warlocks_template_xera" />
+      <EquipmentSet id="tor_de_doomfire_warlocks_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 6: Witch Elves (Lvl 26) -->
+  <NPCCharacter id="tor_de_witch_elves" default_group="Infantry" level="26" name="{=str_tor_de_witch_elves}Witch Elves" occupation="Soldier" is_female="true" culture="Culture.druchii" skill_template="SkillSet.tor_skills_witch_elves" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.female_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_sister_of_slaughter" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_witch_elves_template" />
+      <EquipmentSet id="tor_de_witch_elves_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Faction Leader -->
+  <NPCCharacter id="tor_de_lord_factionleader" default_group="Cavalry" level="35" name="{=str_tor_de_lord_factionleader}Draxor Bloodscar" occupation="Lord" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level36" race="elf" is_hero="true">
+    <face>
+      <BodyProperties version="4" age="50" weight="0.5" build="0.5" key="0039B8000000300FE90675CE1663F9E2334183BAC5AE860C69B35046831589100077760307A6408700000000000000000000000000000000000000003AF46002" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="tor_de_lord_factionleader_template_xera" />
+      <EquipmentSet id="tor_de_lord_factionleader_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 7: Har Ganeth Executioners (Lvl 31) -->
+  <NPCCharacter id="tor_de_har_ganeth_executioner" default_group="Infantry" level="31" name="{=str_tor_de_har_ganeth_executioner}Har Ganeth Executioners" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level31" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.tor_de_black_guard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="tor_de_har_ganeth_executioner_template" />
+      <EquipmentSet id="tor_de_har_ganeth_executioner_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 8: Black Guard of Naggarond (Lvl 36) -->
+  <NPCCharacter id="tor_de_black_guard" default_group="Infantry" level="36" name="{=str_tor_de_black_guard}Black Guard of Naggarond" occupation="Soldier" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level36" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+      <beard_tags><beard_tag name="Cleanshaven" /></beard_tags>
+    </face>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_de_black_guard_template" />
+      <EquipmentSet id="tor_de_black_guard_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Tier 7: Sister of Slaughter (Lvl 31) -->
+  <NPCCharacter id="tor_de_sister_of_slaughter" default_group="Infantry" level="31" name="{=str_tor_de_sister_of_slaughter}Sister of Slaughter" occupation="Soldier" is_female="true" culture="Culture.druchii" skill_template="SkillSet.tor_skills_sister_of_slaughter" race="elf">
+    <face>
+      <face_key_template value="BodyProperty.female_wood_elf" />
+      <hair_tags><hair_tag name="ElfHair" /></hair_tags>
+    </face>
+    <upgrade_targets />
+    <Equipments>
+      <EquipmentSet id="tor_de_sister_of_slaughter_template" />
+      <EquipmentSet id="tor_de_sister_of_slaughter_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Druchii Lords for Minor Faction -->
+  <NPCCharacter id="tor_druchii_lord_0" default_group="Cavalry" name="{=str_tor_de_lord_0}Druchii Dreadlord" occupation="Lord" culture="Culture.druchii" voice="curt" age="50" skill_template="SkillSet.tor_skills_level36" race="elf" is_hero="true">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+    </face>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_druchii_lord_1" default_group="Cavalry" name="{=str_tor_de_lord_1}Druchii High Sorceress" occupation="Lord" culture="Culture.druchii" voice="curt" age="100" skill_template="SkillSet.tor_skills_level36" is_female="true" race="elf" is_hero="true">
+    <face>
+      <face_key_template value="BodyProperty.female_wood_elf" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="5" />
+      <Trait id="Honor" value="-2" />
+      <Trait id="Mercy" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_sorceress_dark_equipment" />
+      <EquipmentSet id="tor_de_sorceress_dark_equipment" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_druchii_lord_2" default_group="Cavalry" name="{=str_tor_de_lord_2}Druchii Beastmaster" occupation="Lord" culture="Culture.druchii" voice="ironic" age="60" skill_template="SkillSet.tor_skills_level36" race="elf" is_hero="true">
+    <face>
+      <face_key_template value="BodyProperty.male_wood_elf" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="8" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Druchii Town NPCs -->
+  <NPCCharacter id="tor_de_villager" default_group="infantry" level="4" name="{=str_tor_de_villager}Druchii Slave-Driver" occupation="Villager" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level6" race="elf">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_notable_roster" />
+      <EquipmentSet id="tor_de_notable_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_merchant" default_group="infantry" level="10" name="{=str_tor_de_merchant}Druchii Slave-Trader" occupation="GoodsTrader" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level11" race="elf">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_merchant_roster" />
+      <EquipmentSet id="tor_de_merchant_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_blacksmith" default_group="infantry" level="10" name="{=str_tor_de_blacksmith}Druchii Armor-Smith" occupation="Blacksmith" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level11" race="elf">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_notable_roster" />
+      <EquipmentSet id="tor_de_notable_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_weaponsmith" default_group="infantry" level="10" name="{=str_tor_de_weaponsmith}Druchii Weapon-Smith" occupation="Blacksmith" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level11" race="elf">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_notable_roster" />
+      <EquipmentSet id="tor_de_notable_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_townsman" default_group="infantry" level="4" name="{=str_tor_de_townsman}Druchii Townsman" occupation="Townsfolk" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level6" race="elf">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_townsman_roster" />
+      <EquipmentSet id="tor_de_townsman_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_townswoman" default_group="infantry" level="4" name="{=str_tor_de_townswoman}Druchii Townswoman" occupation="Townsfolk" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level6" is_female="true" race="elf">
+    <face><face_key_template value="BodyProperty.female_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_townswoman_roster" />
+      <EquipmentSet id="tor_de_townswoman_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="tor_de_beggar" default_group="infantry" level="1" name="{=str_tor_de_beggar}Druchii Outcast" occupation="Townsfolk" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level6" race="elf">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_townsman_roster" />
+      <EquipmentSet id="tor_de_townsman_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_dancer" default_group="infantry" level="1" name="{=str_tor_de_dancer}Druchii Dancer" occupation="Townsfolk" culture="Culture.druchii" skill_template="SkillSet.tor_skills_level6" is_female="true" race="elf">
+    <face><face_key_template value="BodyProperty.female_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_witch_elves_template" />
+      <EquipmentSet id="tor_de_witch_elves_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Druchii Notables -->
+  <NPCCharacter id="tor_notable_druchii_0" name="{=str_tor_notable_druchii_0}Ruthless Druchii Merchant" is_template="true" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.druchii" occupation="Merchant">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Traits>
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_merchant_roster" />
+      <EquipmentSet id="tor_de_merchant_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_notable_druchii_1" name="{=str_tor_notable_druchii_1}Druchii Artisan" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.druchii" occupation="Artisan">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Traits>
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_notable_roster" />
+      <EquipmentSet id="tor_de_notable_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_notable_druchii_2" name="{=str_tor_notable_druchii_2}Druchii Gang Leader" is_template="true" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.druchii" occupation="GangLeader">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_notable_roster" />
+      <EquipmentSet id="tor_de_notable_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_notable_druchii_3" name="{=str_tor_notable_druchii_3}Druchii Headman" is_template="true" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.druchii" occupation="Headman">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Traits>
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="tor_de_notable_roster" />
+      <EquipmentSet id="tor_de_notable_roster" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- Lord Templates for Rebels -->
+  <NPCCharacter id="tor_de_deserter_lord_0" name="{=str_tor_de_deserter_lord_0}Druchii Outcast" is_template="true" voice="curt" default_group="Cavalry" is_hero="false" culture="Culture.druchii" occupation="Lord">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="tor_de_deserter_lord_1" name="{=str_tor_de_deserter_lord_1}Druchii Exile" is_template="true" voice="ironic" default_group="Cavalry" is_hero="false" culture="Culture.druchii" occupation="Lord">
+    <face><face_key_template value="BodyProperty.male_wood_elf" /></face>
+    <Equipments>
+      <EquipmentSet id="tor_de_darkrider_template_xera" />
+      <EquipmentSet id="tor_de_darkrider_template_xera" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

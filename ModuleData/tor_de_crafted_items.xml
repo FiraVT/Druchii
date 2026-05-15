@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Witch Elf Items -->
+  <CraftedItem id="tor_de_witch_elf_daggers"
+               name="{=str_tor_de_witch_elf_daggers}Witch Elf Sacrificial Daggers"
+               crafting_template="Dagger"
+               is_merchandise="true"
+               value="1500"
+               culture="Culture.druchii"
+               modifier_group="sword">
+    <Pieces>
+      <Piece id="dagger_blade_1" Type="Blade" scale_factor="100" />
+      <Piece id="empire_dagger_guard_3" Type="Guard" scale_factor="100" />
+      <Piece id="vlandian_grip_1" Type="Handle" scale_factor="100" />
+      <Piece id="vlandian_pommel_1" Type="Pommel" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="tor_de_doomfire_sword"
+               name="{=str_tor_de_doomfire_sword}Cursed Doomfire Sword"
+               crafting_template="tor_sword_template"
+               is_merchandise="true"
+               value="3500"
+               culture="Culture.druchii"
+               modifier_group="sword">
+    <Pieces>
+      <Piece id="vlandian_blade_2" Type="Blade" scale_factor="100" />
+      <Piece id="vlandian_guard_1" Type="Guard" scale_factor="100" />
+      <Piece id="vlandian_grip_1" Type="Handle" scale_factor="100" />
+      <Piece id="vlandian_pommel_1" Type="Pommel" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="tor_de_executioner_sword"
+               name="{=str_tor_de_executioner_sword}Draich of Har Ganeth"
+               crafting_template="tor_twohandedswords_template"
+               is_merchandise="true"
+               value="12000"
+               culture="Culture.druchii"
+               modifier_group="sword">
+    <Pieces>
+      <Piece id="cleaver_blade_4" Type="Blade" scale_factor="200" />
+      <Piece id="cleaver_guard_1" Type="Guard" scale_factor="100" />
+      <Piece id="cleaver_grip_8" Type="Handle" scale_factor="120" />
+      <Piece id="cleaver_pommel_1" Type="Pommel" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="tor_de_sister_whip"
+               name="{=str_tor_de_sister_whip}Whip of Agony"
+               crafting_template="tor_mace_template"
+               is_merchandise="true"
+               value="2500"
+               culture="Culture.druchii"
+               modifier_group="mace">
+    <Pieces>
+      <Piece id="flagellant_flail_head_001" Type="Blade" scale_factor="410" />
+      <Piece id="chs_flail_mace_001_handle" Type="Handle" scale_factor="90" />
+    </Pieces>
+  </CraftedItem>
+
+  <!-- Core melee weapons used across Druchii equipment rosters -->
+  <CraftedItem id="tor_de_weapon_sword_001"
+               name="{=str_tor_de_weapon_sword_001}Druchii Longsword"
+               crafting_template="tor_sword_template"
+               is_merchandise="true"
+               value="4500"
+               culture="Culture.druchii"
+               modifier_group="sword">
+    <Pieces>
+      <Piece id="vlandian_blade_2" Type="Blade" scale_factor="100" />
+      <Piece id="vlandian_guard_1" Type="Guard" scale_factor="100" />
+      <Piece id="vlandian_grip_1" Type="Handle" scale_factor="100" />
+      <Piece id="vlandian_pommel_1" Type="Pommel" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="tor_de_weapon_sword_002"
+               name="{=str_tor_de_weapon_sword_002}Druchii Curved Sword"
+               crafting_template="tor_sword_template"
+               is_merchandise="true"
+               value="4200"
+               culture="Culture.druchii"
+               modifier_group="sword">
+    <Pieces>
+      <Piece id="aserai_blade_4" Type="Blade" scale_factor="100" />
+      <Piece id="aserai_guard_2" Type="Guard" scale_factor="100" />
+      <Piece id="aserai_grip_2" Type="Handle" scale_factor="100" />
+      <Piece id="aserai_pommel_2" Type="Pommel" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="tor_de_weapon_spear_001"
+               name="{=str_tor_de_weapon_spear_001}Druchii Spear"
+               crafting_template="tor_polearm_template"
+               is_merchandise="true"
+               value="1800"
+               culture="Culture.druchii"
+               modifier_group="spear">
+    <Pieces>
+      <Piece id="spear_blade_1" Type="Blade" scale_factor="100" />
+      <Piece id="spear_handle_1" Type="Handle" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="tor_de_weapon_spear_002"
+               name="{=str_tor_de_weapon_spear_002}Druchii Heavy Spear"
+               crafting_template="tor_polearm_template"
+               is_merchandise="true"
+               value="2800"
+               culture="Culture.druchii"
+               modifier_group="spear">
+    <Pieces>
+      <Piece id="spear_blade_3" Type="Blade" scale_factor="110" />
+      <Piece id="spear_handle_2" Type="Handle" scale_factor="110" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="tor_de_weapon_staff_sorceress_001"
+               name="{=str_tor_de_weapon_staff_sorceress_001}Staff of Dark Power"
+               crafting_template="tor_staff_template"
+               is_merchandise="true"
+               value="5500"
+               culture="Culture.druchii"
+               modifier_group="polearm">
+    <Pieces>
+      <Piece id="spear_blade_1" Type="Blade" scale_factor="100" />
+      <Piece id="spear_handle_1" Type="Handle" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+</Items>

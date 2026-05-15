@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+  <!-- Character Creation Equipment Sets for Druchii -->
+  <EquipmentRoster id="tor_cc_de_foundling" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Item2" id="Item.tor_de_weapon_spear_002" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Item2" id="Item.tor_de_weapon_spear_002" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  
+  <EquipmentRoster id="tor_cc_de_envoy" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  
+  <EquipmentRoster id="tor_cc_de_apprentice" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Body" id="Item.tor_de_body_sorceress_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Body" id="Item.tor_de_body_sorceress_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- Troop Equipment Sets -->
+  <EquipmentRoster id="tor_de_conscript_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_002" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_light" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_002" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_bleaksword_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_dreadspear_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_spear_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_spear_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_darkshard_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item1" id="Item.tor_de_repeater_crossbow_mounted" />
+      <Equipment slot="Item2" id="Item.bolt_b" />
+      <Equipment slot="Item3" id="Item.bolt_b" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item1" id="Item.tor_de_repeater_crossbow_mounted" />
+      <Equipment slot="Item2" id="Item.bolt_b" />
+      <Equipment slot="Item3" id="Item.bolt_b" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_darkshard_shield_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_repeater_crossbow_mounted" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item2" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Item3" id="Item.tor_de_bolts_large" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_repeater_crossbow_mounted" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item2" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Item3" id="Item.tor_de_bolts_large" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_darkrider_unshielded_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_spear_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+      <Equipment slot="Horse" id="Item.charger" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_spear_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_darkrider_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_spear_001" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item2" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Item3" id="Item.tor_de_bolts_large" />
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+      <Equipment slot="Horse" id="Item.charger" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_darkrider_crossbow_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_repeater_crossbow_mounted" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Item2" id="Item.bolt_b" />
+      <Equipment slot="Item3" id="Item.bolt_b" />
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+      <Equipment slot="Horse" id="Item.charger" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_repeater_crossbow_mounted" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_doomfire_warlocks_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_doomfire_sword" />
+      <Equipment slot="Body" id="Item.tor_de_doomfire_body" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+      <Equipment slot="Horse" id="Item.noble_horse_southern" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_doomfire_sword" />
+      <Equipment slot="Body" id="Item.tor_de_doomfire_body" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_witch_elves_template" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Head" id="Item.tor_de_witch_elf_head" />
+      <Equipment slot="Body" id="Item.tor_de_witch_elf_body" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Body" id="Item.tor_de_witch_elf_body" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_har_ganeth_executioner_template" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_executioner_sword" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_executioner_body" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_black_guard_template" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_spear_002" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_black_guard_body" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_sister_of_slaughter_template" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_sister_whip" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_shield_001" />
+      <Equipment slot="Head" id="Item.tor_de_sos_head" />
+      <Equipment slot="Body" id="Item.tor_de_sos_body" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Body" id="Item.tor_de_sos_body" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- Companion/Hero Equipment -->
+  <EquipmentRoster id="tor_de_sorceress_dark_equipment" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_staff_sorceress_001" />
+      <Equipment slot="Item1" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Head" id="Item.tor_de_head_sorceress_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_sorceress_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_sorceress_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_sorceress_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+      <Equipment slot="Horse" id="Item.noble_horse_southern" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_staff_sorceress_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_sorceress_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_sorceress_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_sorceress_fire_equipment" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_weapon_staff_sorceress_001" />
+      <Equipment slot="Item1" id="Item.tor_de_witch_elf_daggers" />
+      <Equipment slot="Head" id="Item.tor_de_head_sorceress_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_sorceress_001" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_sorceress_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_sorceress_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+      <Equipment slot="Horse" id="Item.noble_horse_southern" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_staff_sorceress_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_sorceress_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_sorceress_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_lord_factionleader_template_xera" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.tor_de_executioner_sword" />
+      <Equipment slot="Item1" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Head" id="Item.tor_de_head_helmet_infantry_001" />
+      <Equipment slot="Body" id="Item.tor_de_black_guard_body" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_pauldrons_infantry_001" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_infantry_001" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_infantry" />
+      <Equipment slot="Horse" id="Item.charger" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.tor_de_weapon_sword_001" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- Druchii Townspeople Equipment Rosters -->
+  <EquipmentRoster id="tor_de_townsman_roster" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.vlandia_tunic_v2" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.vlandia_tunic_v2" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_townswoman_roster" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.vlandia_peasant_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.vlandia_peasant_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_notable_roster" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_light" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_armor_infantry_light" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_boots_light" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="tor_de_merchant_roster" culture="Culture.druchii">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.tor_de_head_dark_rider" />
+      <Equipment slot="Body" id="Item.tor_de_body_dark_rider" />
+      <Equipment slot="Cape" id="Item.tor_de_shoulder_dark_rider" />
+      <Equipment slot="Gloves" id="Item.tor_de_arm_bracers_light" />
+      <Equipment slot="Leg" id="Item.tor_de_leg_dark_rider" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

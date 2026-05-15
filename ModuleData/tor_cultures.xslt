@@ -1,0 +1,179 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="xml" omit-xml-declaration="no" indent="yes" />
+
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <!-- Override druchii culture -->
+    <xsl:template match="Culture[@id='druchii']">
+        <Culture id="druchii"
+            name="{{=str_darkelves_culture}}Druchii"
+            is_main_culture="true"
+            color="0xFF2E0854"
+            color2="0xFF000000"
+            elite_basic_troop="NPCCharacter.tor_de_darkrider"
+            basic_troop="NPCCharacter.tor_de_conscript"
+            melee_militia_troop="NPCCharacter.tor_de_conscript"
+            ranged_militia_troop="NPCCharacter.tor_de_darkshard"
+            melee_elite_militia_troop="NPCCharacter.tor_de_bleaksword"
+            ranged_elite_militia_troop="NPCCharacter.tor_de_darkshard_shield"
+            can_have_settlement="true"
+            villager_party_template="PartyTemplate.druchii_villager_template"
+            default_party_template="PartyTemplate.druchii_slaver_party"
+            encounter_background_mesh="de_encounter"
+            faction_banner_key="11.8.140.8000.8000.764.764.0.1.0.505.140.64.671.671.764.764.0.0.0"
+            militia_party_template="PartyTemplate.druchii_militia_template"
+            settlement_patrol_template_level_1="PartyTemplate.druchii_militia_template"
+            settlement_patrol_template_level_2="PartyTemplate.druchii_militia_template"
+            settlement_patrol_template_level_3="PartyTemplate.druchii_militia_template"
+            rebels_party_template="PartyTemplate.druchii_slaver_party"
+            vassal_reward_party_template="PartyTemplate.druchii_slaver_party"
+            tournament_master="NPCCharacter.tournament_master_empire"
+            villager="NPCCharacter.tor_de_villager"
+            caravan_master="NPCCharacter.tor_de_darkrider"
+            caravan_guard="NPCCharacter.tor_de_conscript"
+            veteran_caravan_guard="NPCCharacter.tor_de_darkshard"
+            prison_guard="NPCCharacter.tor_de_bleaksword"
+            guard="NPCCharacter.tor_de_bleaksword"
+            blacksmith="NPCCharacter.tor_de_blacksmith"
+            weaponsmith="NPCCharacter.tor_de_weaponsmith"
+            townswoman="NPCCharacter.tor_de_townswoman"
+            townswoman_infant="NPCCharacter.townswoman_infant_vlandia"
+            townswoman_child="NPCCharacter.townswoman_child_vlandia"
+            townswoman_teenager="NPCCharacter.townswoman_teenager_vlandia"
+            townsman="NPCCharacter.tor_de_townsman"
+            townsman_infant="NPCCharacter.townsman_infant_vlandia"
+            townsman_child="NPCCharacter.townsman_child_vlandia"
+            townsman_teenager="NPCCharacter.townsman_teenager_vlandia"
+            village_woman="NPCCharacter.tor_de_townswoman"
+            villager_male_child="NPCCharacter.villager_child_vlandia"
+            villager_male_teenager="NPCCharacter.villager_teenager_vlandia"
+            villager_female_child="NPCCharacter.village_woman_child_vlandia"
+            villager_female_teenager="NPCCharacter.village_woman_teenager_vlandia"
+            ransom_broker="NPCCharacter.ransom_broker_empire"
+            gangleader_bodyguard="NPCCharacter.tor_de_bleaksword"
+            merchant_notary="NPCCharacter.tor_de_merchant"
+            artisan_notary="NPCCharacter.tor_de_merchant"
+            preacher_notary="NPCCharacter.tor_de_merchant"
+            rural_notable_notary="NPCCharacter.tor_de_merchant"
+            shop_worker="NPCCharacter.tor_de_townsman"
+            tavernkeeper="NPCCharacter.tor_de_townsman"
+            taverngamehost="NPCCharacter.tor_de_townsman"
+            musician="NPCCharacter.musician_empire"
+            tavern_wench="NPCCharacter.tor_de_townswoman"
+            armorer="NPCCharacter.tor_de_merchant"
+            horseMerchant="NPCCharacter.tor_de_merchant"
+            barber="NPCCharacter.tor_de_townsman"
+            merchant="NPCCharacter.tor_de_merchant"
+            beggar="NPCCharacter.tor_de_beggar"
+            female_beggar="NPCCharacter.tor_de_beggar"
+            female_dancer="NPCCharacter.tor_de_dancer"
+            default_battle_equipment_roster="EquipmentRoster.tor_de_conscript_template_xera"
+            default_civilian_equipment_roster="EquipmentRoster.tor_de_conscript_template_xera"
+            default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+            board_game_type="Tablut"
+            default_character_creation_body_property="BodyProperty.male_wood_elf"
+            start_point_position_x="918.867"
+            start_point_position_y="1025.561">
+            <caravan_party_templates>
+                <caravan_party_template id="PartyTemplate.druchii_caravan_template" />
+            </caravan_party_templates>
+            <elite_caravan_party_templates>
+                <caravan_party_template id="PartyTemplate.druchii_caravan_template" />
+            </elite_caravan_party_templates>
+            <available_ship_hulls></available_ship_hulls>
+            <vassal_reward_items>
+                <item id="Item.tor_de_weapon_sword_001" />
+            </vassal_reward_items>
+            <banner_bearer_replacement_weapons>
+                <item id="Item.tor_de_weapon_sword_001" />
+                <item id="Item.tor_de_weapon_sword_002" />
+                <item id="Item.tor_de_weapon_spear_001" />
+            </banner_bearer_replacement_weapons>
+            <default_policies>
+                <policy id="policy_feudal_inheritance" />
+            </default_policies>
+            <notable_templates>
+                <template name="NPCCharacter.tor_notable_druchii_0" />
+                <template name="NPCCharacter.tor_notable_druchii_1" />
+                <template name="NPCCharacter.tor_notable_druchii_2" />
+                <template name="NPCCharacter.tor_notable_druchii_3" />
+            </notable_templates>
+            <lord_templates>
+                <template name="NPCCharacter.tor_de_deserter_lord_0" />
+                <template name="NPCCharacter.tor_de_deserter_lord_1" />
+            </lord_templates>
+            <rebellion_hero_templates>
+                <template name="NPCCharacter.tor_de_deserter_lord_0" />
+                <template name="NPCCharacter.tor_de_deserter_lord_1" />
+            </rebellion_hero_templates>
+            <tournament_team_templates_one_participant>
+                <template name="NPCCharacter.tor_de_bleaksword" />
+            </tournament_team_templates_one_participant>
+            <tournament_team_templates_two_participant>
+                <template name="NPCCharacter.tor_de_dreadspear" />
+            </tournament_team_templates_two_participant>
+            <tournament_team_templates_four_participant>
+                <template name="NPCCharacter.tor_de_darkshard" />
+            </tournament_team_templates_four_participant>
+            <basic_mercenary_troops>
+                <template name="NPCCharacter.tor_merc_free_company_volunteer" />
+            </basic_mercenary_troops>
+            <male_names>
+                <name name="{{=de_male_name_1}}Malek" />
+                <name name="{{=de_male_name_2}}Malas" />
+                <name name="{{=de_male_name_3}}Urias" />
+                <name name="{{=de_male_name_4}}Kouras" />
+                <name name="{{=de_male_name_5}}Rakath" />
+                <name name="{{=de_male_name_6}}Tullas" />
+                <name name="{{=de_male_name_7}}Yeulas" />
+                <name name="{{=de_male_name_8}}Furas" />
+                <name name="{{=de_male_name_9}}Varek" />
+                <name name="{{=de_male_name_10}}Sila" />
+                <name name="{{=de_male_name_11}}Dreadlord" />
+                <name name="{{=de_male_name_12}}Darkblade" />
+                <name name="{{=de_male_name_13}}Coldheart" />
+                <name name="{{=de_male_name_14}}Vaelen" />
+                <name name="{{=de_male_name_15}}Kaelen" />
+                <name name="{{=de_male_name_16}}Thraen" />
+                <name name="{{=de_male_name_17}}Naelar" />
+                <name name="{{=de_male_name_18}}Zylas" />
+                <name name="{{=de_male_name_19}}Korith" />
+                <name name="{{=de_male_name_20}}Malida" />
+            </male_names>
+            <female_names>
+                <name name="{{=de_female_name_1}}Moratha" />
+                <name name="{{=de_female_name_2}}Hellebra" />
+                <name name="{{=de_female_name_3}}Drusala" />
+                <name name="{{=de_female_name_4}}Malida" />
+                <name name="{{=de_female_name_5}}Kahlith" />
+                <name name="{{=de_female_name_6}}Anethra" />
+                <name name="{{=de_female_name_7}}Eshara" />
+                <name name="{{=de_female_name_8}}Lolith" />
+                <name name="{{=de_female_name_9}}Viconia" />
+                <name name="{{=de_female_name_10}}Kaelith" />
+                <name name="{{=de_female_name_11}}Saelith" />
+                <name name="{{=de_female_name_12}}Malarith" />
+                <name name="{{=de_female_name_13}}Draka" />
+                <name name="{{=de_female_name_14}}Kraven" />
+                <name name="{{=de_female_name_15}}Nightshade" />
+            </female_names>
+            <clan_names>
+                <name name="{{=de_clan_name_1}}Nightblade" />
+                <name name="{{=de_clan_name_2}}Darkheart" />
+                <name name="{{=de_clan_name_3}}Ironheart" />
+                <name name="{{=de_clan_name_4}}Coldheart" />
+                <name name="{{=de_clan_name_5}}Nightshade" />
+                <name name="{{=de_clan_name_6}}Bloodwrack" />
+                <name name="{{=de_clan_name_7}}Shadowbane" />
+                <name name="{{=de_clan_name_8}}Dreadbringer" />
+                <name name="{{=de_clan_name_9}}Soulreaper" />
+                <name name="{{=de_clan_name_10}}Doomweaver" />
+            </clan_names>
+        </Culture>
+    </xsl:template>
+
+</xsl:stylesheet>

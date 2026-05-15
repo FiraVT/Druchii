@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCharacterCreationOption xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CharacterCreationOption Id="option_1_de_nobility" Culture="druchii" StageNumber="1" EquipmentSetId="tor_cc_de_foundling">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_de_option1_1_label}Druchii Nobility</OptionText>
+		<OptionFlavourText>{=tor_cc_de_option1_1_text}Born into a noble house of Naggarond, you were raised with the expectation of absolute loyalty to the Witch King and absolute cruelty to your inferiors.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_de_corsair" Culture="druchii" StageNumber="1" EquipmentSetId="tor_de_darkrider_template">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Scouting</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_de_option1_2_label}Corsair Family</OptionText>
+		<OptionFlavourText>{=tor_cc_de_option1_2_text}The sea is in your blood. Your family has sailed the Black Arks for generations, raiding the coasts of Ulthuan and the Old World.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_de_raiding" Culture="druchii" StageNumber="2" EquipmentSetId="tor_de_conscript_template">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+			<string>TwoHanded</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_de_option2_1_label}Coastal Raiding</OptionText>
+		<OptionFlavourText>{=tor_cc_de_option2_1_text}You spent your youth on raiding parties, learning how to strike fast and hard, and how to secure valuable captives for the slave markets.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_de_intrigue" Culture="druchii" StageNumber="2" EquipmentSetId="tor_cc_de_envoy">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Steward</string>
+			<string>Roguery</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_de_option2_2_label}Court Intrigue</OptionText>
+		<OptionFlavourText>{=tor_cc_de_option2_2_text}Naggaroth is as dangerous in the courts as it is on the battlefield. You learned early on that a well-placed word or a subtle poison can be more effective than a sword.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_3_de_mercenary" Culture="druchii" StageNumber="3" EquipmentSetId="tor_de_bleaksword_template">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Bow</string>
+			<string>Charm</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<PositiveEffectText>{=tor_cc_de_option3_1_effect}Druchii Mercenary Career</PositiveEffectText>
+		<OptionText>{=tor_cc_de_option3_1_label}Druchii Mercenary</OptionText>
+		<OptionFlavourText>{=tor_cc_de_option3_1_text}You have left the service of the Dreadlords to seek your own fortune. As a mercenary, your skills are for hire to the highest bidder, though your heart remains as cold as the Naggaroth ice.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_3_de_sorceress" Culture="druchii" StageNumber="3" EquipmentSetId="tor_cc_de_apprentice">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_de_option3_2_label}Druchii Sorceress</OptionText>
+		<PositiveEffectText>{=tor_cc_de_option3_2_effect}Druchii Sorceress Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_de_option3_2_text}You have been trained in the Convent of Sorceresses. You wield the dark winds of magic with terrifying precision, a power reserved strictly for the females of your race.</OptionFlavourText>
+	</CharacterCreationOption>
+</ArrayOfCharacterCreationOption>

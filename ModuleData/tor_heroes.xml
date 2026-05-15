@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+    <!-- House of Naggarond (Clan 1) - Malekith -->
+    <Hero id="tor_de_lord_factionleader"
+          faction="Faction.druchii_clan_1"
+          is_female="false"
+          initial_renown="2000" />
+    
+    <!-- House of Karond Kar (Clan 2) - Beastmaster -->
+    <Hero id="tor_druchii_lord_2"
+          faction="Faction.druchii_clan_2"
+          is_female="false"
+          initial_renown="1000" />
+          
+    <!-- House of Hag Graef (Clan 3) - Dreadlord -->
+    <Hero id="tor_druchii_lord_0"
+          faction="Faction.druchii_clan_3"
+          is_female="false"
+          initial_renown="1200" />
+
+    <!-- High Sorceress (Clan 1) -->
+    <Hero id="tor_druchii_lord_1"
+          faction="Faction.druchii_clan_1"
+          is_female="true"
+          initial_renown="800" />
+</Heroes>
